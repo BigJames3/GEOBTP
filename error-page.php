@@ -36,28 +36,17 @@
                     <!--Top Left-->
                     <div class="top-left">
                     	<ul class="links clearfix">
-                        	<li><a href="#"><span class="icon fa fa-phone"></span>  +0 625-07520-6644</a></li>
-                            <li><a href="#"><span class="icon fa fa-envelope-o"></span>Mailus@Metroindustry.com</a></li>
-                            <li><a href="#"><span class="icon flaticon-placeholder-2"></span>Locate Us</a></li>
+                        	<li><a href="#"><span class="icon fa fa-phone"></span>DÉSOLÉ, LA PAGE QUE VOUS CHERCHEZ EST INTROUVABLE. NOUS VOUS PRIONS DE NOUS EXCUSER POUR CE DÉSAGRÉMENT.</a></li>
                         </ul>
                     </div>
                     
                     <!--Top Right-->
-                    <div class="top-right clearfix">
-                    	<ul class="clearfix">
-                        	<li><a href="#">Careers</a></li>
-                            <li><a href="#">Feedback</a></li>
-                            <li><a href="#">Updates</a></li>
-                            <!--Language-->
-                            <li class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"><span class="flag-img"><img src="images/icons/flag.jpg" alt="" /></span>English &nbsp;<span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">German</a></li>
-                                    <li><a href="#">Arabic</a></li>
-                                    <li><a href="#">Hindi</a></li>
-                                </ul>
-                            </li>
-                        </ul>                        
+                    <div class="top-right clearfix">                        
+                    	<ul class="links clearfix">                            
+                        	<li><a href="#"><span class="icon "></span>Careers</a></li>
+                            <li><a href="#">Mailus@Metroindustry.com</a></li>
+                        	<li><a href="#">+225 00 00 00 00 00</a></li>
+                        </ul>                      
                     </div>
                     
                 </div>
@@ -79,14 +68,14 @@
                 
                 <!-- Search -->
                 <div class="error-search-form">
-                    <form method="post" action="contact.html">
+                    <form method="post" action="contact.php">
                         <div class="form-group">
                             <input type="search" name="search-field" value="" placeholder="Search..." required>
                             <button type="submit"><span class="icon fa fa-search"></span></button>
                         </div>
                     </form>
                 </div>
-                <a href="index.html" class="go-back">Back to Home Page</a>
+                <a href="geobtp.php" class="go-back">Back to Home Page</a>
                 
             </div>
         </div>
