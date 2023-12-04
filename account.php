@@ -1,9 +1,34 @@
+<?php
+    session_start();
+    require_once('connexion.php');
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        $query = "SELECT * FROM user WHERE username = :username AND password = :password";
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(':username', $username);
+        $stmt->bindParam(':password', $password);
+        $stmt->execute();
+
+        $count = $stmt->rowCount();
+
+        if ($count == 1) {
+            $_SESSION['loggedin'] = true;
+            $_SESSION['username'] = $username;
+            header("location: checkout.php"); // Redirection après la connexion
+        } else {
+            $error = "Identifiants invalides";
+        }
+    }
+?>  
 <!DOCTYPE html>
 <html>
     <head>
         <title>The Metron - Industry and Factory HTML Template | Account</title>
         <?php include 'head.php';?>
-    </head>    
+    </head> 
 <body>
 
 <div class="page-wrapper">
@@ -40,25 +65,25 @@
                     
                     <!--Login Form-->
                     <div class="styled-form login-form">
-                        <form method="post" action="index.html">
+                        <form method="post" action="">
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="username" value="" placeholder="Your Name *">
+                                <input type="text" name="username" value="" placeholder="Nom d'utilisateur *" required>
                             </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope-o"></span></span>
-                                <input type="email" name="useremil" value="" placeholder="Emai Address*">
-                            </div>
+                            <!--
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-envelope-o"></span></span>
+                                    <input type="email" name="useremil" value="" placeholder="Emai Address*">
+                                </div>
+                            -->
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Enter Password">
+                                <input type="password" name="userpassword" value="" placeholder="Mot de passe" required>
                             </div>
                             <div class="clearfix">
                                 <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one">Login Now</button>
-                                </div>
-                                <div class="form-group social-links-two pull-right">
-                                    Or login with <a href="#" class="img-circle facebook"><span class="fa fa-facebook-f"></span></a> <a href="#" class="img-circle twitter"><span class="fa fa-twitter"></span></a> <a href="#" class="img-circle google-plus"><span class="fa fa-google-plus"></span></a>
+                                    <!-- <button type="button" type="submit" class="theme-btn btn-style-one">Se connecter</button> -->
+                                    <input type="submit" value="Se connecter" />
                                 </div>
                             </div>
                             
@@ -66,9 +91,9 @@
                                 <div class="pull-left">
                                     <input type="checkbox" id="remember-me"><label class="remember-me" for="remember-me">&nbsp; Remember Me</label>
                                 </div>
-                            </div>
-                            
+                            </div>                            
                         </form>
+                        <?php if(isset($error)) { echo $error; } ?>
                     </div>
                     
                 </div>

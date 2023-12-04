@@ -76,7 +76,7 @@
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="index.html">Bienvenue</a></li>
+                                    <li><a href="index.php">Bienvenue</a></li>
                                     <!-- Toggle Button 
                                     <li class="current dropdown"><a href="#">Home</a>
                                     	<ul>                                            
@@ -102,7 +102,7 @@
                                     </li>                                    
                                     <li class="current dropdown"><a href="#">Careers</a>
                                     	<ul>                                            
-                                            <li><a href="index-2.html">Nos offres d'emploi</a></li>
+                                            <li><a href="index.php">Nos offres d'emploi</a></li>
                                             <li class="dropdown"><a href="#">Mon futur métier</a>
                                                 <ul>
                                                     <li><a href="index.html">Topographe</a></li>

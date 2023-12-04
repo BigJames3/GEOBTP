@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+// Vérifier si l'utilisateur est connecté
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("location: account.php"); // Redirection vers la page de connexion si l'utilisateur n'est pas connecté
+    exit;
+}
+
+// Le reste du contenu de la page formulaire.php ici
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,6 +51,8 @@
                         	<li><a href="#"><span class="icon fa fa-phone"></span>  +0 625-07520-6644</a></li>
                             <li><a href="#"><span class="icon fa fa-envelope-o"></span>Mailus@Metroindustry.com</a></li>
                             <li><a href="#"><span class="icon flaticon-placeholder-2"></span>Locate Us</a></li>
+                            <li><a href="#"><a href="deconnexion.php">Se déconnecter</a></a></li>
+                             <!-- Lien pour se déconnecter -->
                         </ul>
                     </div>
                     
