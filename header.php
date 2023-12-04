@@ -10,21 +10,28 @@
             	<div class="top-outer clearfix">
                     
                     <!--Top Left-->
-                    <div class="top-left">
+                    <div class="top-right">
                     	<ul class="links clearfix">
-                        	<li><a href="#"><span class="icon fa fa-phone"></span>  +0 625-07520-6644</a></li>
-                            <li><a href="#"><span class="icon fa fa-envelope-o"></span>Mailus@Metroindustry.com</a></li>
-                            <li><a href="#"><span class="icon flaticon-placeholder-2"></span>Locate Us</a></li>
+                        	<li><a href="#"><span class="icon fa fa-phone"></span>+225 27 22 46 52 72</a></li>
+                            <li><a href="#"><span class="icon fa fa-envelope-o"></span>infos@geobtp.com</a></li>
+                            <li><a href="#"><span class="icon flaticon-placeholder-2"></span>COCODY 2 PLATEAUX MOBIL</a></li>
+                                                      
+                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                <li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
+                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                         </ul>
                     </div>
                     
-                    <!--Top Right-->
+                    <!--Top Right
                     <div class="top-right clearfix">
-                    	<ul class="clearfix">
+                    	<ul class="clearfix">                            
+                        	<li><a href="#">Careers</a></li>
+                            
                         	<li><a href="#">Careers</a></li>
                             <li><a href="#">Feedback</a></li>
                             <li><a href="#">Updates</a></li>
-                            <!--Language-->
+                            
                             <li class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"><span class="flag-img"><img src="images/icons/flag.jpg" alt="" /></span>English &nbsp;<span class="fa fa-angle-down"></span></a>
                                 <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
                                     <li><a href="#">English</a></li>
@@ -33,8 +40,10 @@
                                     <li><a href="#">Hindi</a></li>
                                 </ul>
                             </li>
+                            
                         </ul>                        
                     </div>
+                    Language-->
                     
                 </div>
                 
@@ -67,9 +76,10 @@
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
+                                    <li><a href="index.html">Bienvenue</a></li>
+                                    <!-- Toggle Button 
                                     <li class="current dropdown"><a href="#">Home</a>
-                                    	<ul>
-                                            <li><a href="index.html">Homepage 01</a></li>
+                                    	<ul>                                            
                                             <li><a href="index-2.html">Homepage 02</a></li>
                                             <li><a href="index-3.html">Homepage 03</a></li>
                                             <li><a href="index-4.html">Homepage 04</a></li>
@@ -82,12 +92,25 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li class="dropdown"><a href="#">Market Sectors</a>
+                                    </li> --> 
+                                    <li><a href="about.php">About us</a></li>
+                                    <li class="dropdown"><a href="#">Vos besoins</a>
                                     	<ul>
-                                            <li><a href="market-sectors.html">Market Sectors</a></li>
-                                            <li><a href="market-single.html">Market Sector Single</a></li>
+                                            <li><a href="market-sectors.php">Market Sectors</a></li>
+                                            <li><a href="market-single.php">Market Sector Single</a></li>
+                                        </ul>
+                                    </li>                                    
+                                    <li class="current dropdown"><a href="#">Careers</a>
+                                    	<ul>                                            
+                                            <li><a href="index-2.html">Nos offres d'emploi</a></li>
+                                            <li class="dropdown"><a href="#">Mon futur métier</a>
+                                                <ul>
+                                                    <li><a href="index.html">Topographe</a></li>
+                                                    <li><a href="index-2.html">Formation</a></li>
+                                                    <li><a href="index-3.html">Conseil et accompagnement technique</a></li>
+                                                    <li><a href="index-4.html">Header Style Four</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown has-mega-menu"><a href="#">Pages</a>
@@ -139,13 +162,8 @@
                         
                         <!--Outer Box-->
                         <div class="outer-box">
-                            <a href="#" class="theme-btn quote-btn" data-toggle="modal" data-target="#schedule-box">Get a Quote <span class="icon icon-two"></span></a>
-                            <ul class="social-icon-one">
-                            	<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-skype"></span></a></li>
-                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            </ul>
+                            <a href="#" class="theme-btn quote-btn" data-toggle="modal" data-target="#schedule-box">DEVI <span class="icon icon-two"></span></a>
+                           
                         </div>
                         
                     </div>
