@@ -34,7 +34,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <li><a href="#"><span class="icon fa fa-envelope-o"></span>infos@geobtp.com</a></li>
                                 <li><a href="#"><span class="icon flaticon-placeholder-2"></span>COCODY 2 PLATEAUX MOBIL</a></li>
                                                         
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://www.facebook.com/geobtp.ci.75"><span class="fa fa-facebook"></span></a></li>
                                     <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                                     <li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
                                     <li><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -177,14 +177,14 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
                                         <li class="dropdown"><a href="#">rapport</a>
                                             <ul>
-                                                <li><a href="index.html">Ajouter un rapport</a></li>
+                                                <li><a href="form-add-rapport.php">Ajouter un rapport</a></li>
                                                 <li><a href="accueil_page_des_rapports.php">Liste rapport</a></li>
                                             </ul>
                                         </li>
 
                                         <li class="dropdown"><a href="#">Certificat</a>
                                             <ul>
-                                                <li><a href="index.html">Ajouter un rapport</a></li>
+                                                <li><a href="form-add-certificat.php">Ajouter un Certificat</a></li>
                                                 <li><a href="accueil_page_des_certificats.php">Liste Certificat</a></li>
                                             </ul>
                                         </li>                                        

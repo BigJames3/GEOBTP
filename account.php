@@ -2,6 +2,8 @@
     session_start();
     require_once('connexion.php');
 
+    
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['username'];
         $password = $_POST['password'];
@@ -22,6 +24,7 @@
             $error = "Identifiants invalides";
         }
     }
+      
 ?>  
 <!DOCTYPE html>
 <html>
