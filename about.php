@@ -3,8 +3,7 @@
     <head>
         <title>The Metron - Industry and Factory HTML Template | About Us</title>
         <?php include 'head.php';?>
-    </head>
-    
+    </head>    
 <body>
 
 <div class="page-wrapper">

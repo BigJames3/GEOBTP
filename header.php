@@ -178,14 +178,14 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                         <li class="dropdown"><a href="#">rapport</a>
                                             <ul>
                                                 <li><a href="index.html">Ajouter un rapport</a></li>
-                                                <li><a href="index-2.html">Liste rapport</a></li>
+                                                <li><a href="accueil_page_des_rapports.php">Liste rapport</a></li>
                                             </ul>
                                         </li>
 
                                         <li class="dropdown"><a href="#">Certificat</a>
                                             <ul>
                                                 <li><a href="index.html">Ajouter un rapport</a></li>
-                                                <li><a href="index-2.html">Liste rapport</a></li>
+                                                <li><a href="accueil_page_des_certificats.php">Liste Certificat</a></li>
                                             </ul>
                                         </li>                                        
                                     </ul>

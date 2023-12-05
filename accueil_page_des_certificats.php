@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+// Vérifier si l'utilisateur est connecté
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("location: account.php"); // Redirection vers la page de connexion si l'utilisateur n'est pas connecté
+    exit;
+}
+// Le reste du contenu de la page formulaire.php ici
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,13 +72,13 @@
                 <table id="example" class="table table-striped table-bordered" style="width:100%;">
                         <thead class="cart-header">
                             <tr class="entete-table" >
-                                <th>ID rapports</th>
+                                <th>ID Certificat</th>
                                 <th>Entreprises</th>
-                                <th>Rapports</th>
-                                <th>Abreviations</th>
-                                <th>Lieux</th>
-                                <th>Date enregistrement</th>
-                                <th>Correspondants</th>
+                                <th>Nom & prénoms</th>
+                                <th>Formation</th>
+                                <th>Date debut formation</th>
+                                <th>Date Fin formation</th>
+                                <th>Durée</th>
                                 <th>Mails</th>
                                 <th>Contacts</th>
                                 <th>Options</th>
