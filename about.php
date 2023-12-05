@@ -9,8 +9,8 @@
 
 <div class="page-wrapper">
  	
-    <!-- Preloader -->    
- 	
+    <!-- Preloader -->  
+
     <!-- Main Header / Header Style Two-->
     <?php include 'header.php';?>
     <!--End Main Header -->
@@ -542,8 +542,12 @@
     </section>
     <!--End Call To Action Section-->
     
+    <!--Quote Form-->
+    <?php include 'quoteform.php';?>
+    <!-- End of #schedule-box -->
+    
     <!--Main Footer-->
-    <!--<footer>--><!--Quote Form-->
+    <!--<footer>-->
     <?php include 'footer.php';?>
     <!--</footer>-->
     

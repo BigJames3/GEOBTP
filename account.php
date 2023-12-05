@@ -17,7 +17,7 @@
         if ($count == 1) {
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-            header("location: checkout.php"); // Redirection après la connexion
+            header("location: accueil-authentification.php"); // Redirection après la connexion
         } else {
             $error = "Identifiants invalides";
         }
@@ -60,7 +60,7 @@
                 <div class="form-column column col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 
                     <div class="sec-title">
-                        <h2>Login Now</h2>
+                        <h2>CONNEXION</h2>
                     </div>
                     
                     <!--Login Form-->
@@ -78,18 +78,12 @@
                             -->
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Mot de passe" required>
+                                <input type="password" name="password" value="" placeholder="Mot de passe" required>
                             </div>
                             <div class="clearfix">
                                 <div class="form-group pull-left">
-                                    <!-- <button type="button" type="submit" class="theme-btn btn-style-one">Se connecter</button> -->
-                                    <input type="submit" value="Se connecter" />
-                                </div>
-                            </div>
-                            
-                            <div class="clearfix">
-                                <div class="pull-left">
-                                    <input type="checkbox" id="remember-me"><label class="remember-me" for="remember-me">&nbsp; Remember Me</label>
+                                     <button  type="submit" class="theme-btn btn-style-one">Se connecter</button> 
+                                    <!--<input type="submit" value="Se connecter" />-->
                                 </div>
                             </div>                            
                         </form>
@@ -102,35 +96,11 @@
                 <div class="form-column column col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 
                     <div class="sec-title">
-                        <h2>Register Here</h2>
+                        <h2>LABORATOIRE GEOTECHNIQUE</h2>
                     </div>
                     
                     <!--Login Form-->
-                    <div class="styled-form register-form">
-                        <form method="post" action="index.html">
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="username" value="" placeholder="Your Name *">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope-o"></span></span>
-                                <input type="email" name="useremil" value="" placeholder="Emai Address*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Enter Password">
-                            </div>
-                            <div class="clearfix">
-                                <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one">Register here</button>
-                                </div>
-                                <div class="form-group submit-text pull-right">
-                                	* You must be a free registered to submit content.
-                                </div>
-                            </div>
-                            
-                        </form>
-                    </div>
+                    <img src="../GEOBTP/images/resource/geobtp.webp" class="img-fluid" alt="Responsive image" class="img-thumbnail">
                     
                 </div>
                 
