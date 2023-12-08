@@ -26,131 +26,75 @@ session_start();
         </div>
     </section>
     <!--End Page Title-->
-	
+	<style>
+        .checkout-page .row .field-label{text-transform: uppercase;}
+    </style>
     <!--CheckOut Page-->
     <div class="checkout-page">
     	<div class="auto-container">
-        
-        	<!--Default Links-->
-            <ul class="default-links">
-                <li>Exisitng Customer? <a href="#">Click here to login</a></li>
-                <li>Have a coupon? <a href="#">Click here to enter your code</a></li>
-            </ul>
         	<!--Checkout Details-->
             <div class="checkout-form">
-                <form method="post" action="checkout.html">
-                    <div class="row clearfix">
+                <form method="post" action="enregistrer.php">
+                    <div class="row">
                     	<!--Column-->
-                        <div class="column col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-md-6 ">
                             <div class="checkout-title">
-                            	<h2>Billing Address</h2>
+                            	<h2>ENREGISTREMENT DE RAPPORT</h2>
                             </div>
-                            <div class="row clearfix">
-                            
+                            <div class="row justify-content-center clearfix">                            
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Country <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
+                                    <div class="field-label">ENTREPRISE<sup>*</sup></div>
+                                    <input type="text" name="entreprise" value="" placeholder="Nom entreprise" required>
                                 </div>
                                 
+                                <!--Form Group-->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Titre de rapport<sup>*</sup></div>
+                                    <input type="text" name="titre_rapport" value="" placeholder="" required>
+                                </div>
+                                
+                                <!--Form Group-->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Abreviation du titre de rapport <sup>*</sup></div>
+                                    <input type="text" name="abreviation" value="" placeholder="" required>
+                                </div>
+                                
+                                <!--Form Group-->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Lieu des traveaux <sup>*</sup></div>
+                                    <input type="text" name="lieux_des_traveaux" value="" placeholder="" required>
+                                </div>
+
+                                <!--Form Group-->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Nom du correspondant <sup>*</sup></div>
+                                    <input type="text" name="correspondents_name" value="" placeholder="" required>
+                                </div>
+                                
+                                <!--Form Group-->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Addresse Email  <sup>*</sup></div>
+                                    <input type="text" name="adresse_mail" value="" placeholder="" required>
+                                </div>
                                 <!--Form Group-->
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <div class="field-label">First Name <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
+                                    <div class="field-label">Numéro<sup>*</sup></div>
+                                    <input type="number" name="numero_correspondant" value="" placeholder="">
                                 </div>
-                                
                                 <!--Form Group-->
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <div class="field-label">Last Name <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Address <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Town / City <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Contact Info <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="Email Address">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <input type="text" name="field-name" value="" placeholder="Phone Number">
+                                    <div class="field-label">Date enregistrement<sup>*</sup></div>
+                                    <input type="date" name="date_enregistrement" value="" placeholder="Date enregistrement">
                                 </div>
                                 
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                	<div class="check-box"><input type="checkbox" name="shipping-option" id="account-option"> &ensp; <label for="account-option">Create an account?</label></div>
-                                </div>
-                                
+                                	<div class="check-box"><label for="account-option"><strong>NB: &ensp; </strong> Vérifiez les informations avant de valider.</label></div>
+                                </div>                                
                             </div>
+                            <button type="submit" class="theme-btn btn-style-one place-order">Enregistrer</button>
                         </div>
-                        <!--Column-->
-                        <div class="column col-md-6 col-sm-12 col-xs-12">
-                            <div class="checkout-title">
-                            	<h2>Shiping to a Different Address</h2>
-                            </div>
-                            
-                            <div class="row clearfix">
-                            
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Country <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <div class="field-label">First Name <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <div class="field-label">Last Name <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Address <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Town / City <sup>*</sup></div>
-                                    <input type="text" name="field-name" value="" placeholder="">
-                                </div>
-                                
-                                <!--Form Group-->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <div class="field-label">Other Notes</div>
-                                    <textarea class="" placeholder="Special notes about your order..." ></textarea>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
+                        <!--Column-->                        
                     </div>
                 </form>
             </div>

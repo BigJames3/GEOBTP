@@ -19,7 +19,7 @@
         if ($count == 1) {
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-            header("location: accueil-authentification.php"); // Redirection après la connexion
+            header("location: index.php"); // Redirection après la connexion
         } else {
             $error = "Identifiants invalides";
         }
