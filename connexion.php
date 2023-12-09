@@ -1,4 +1,3 @@
-
 <?php
     // Fichier de connexion (connexion.php)
     $dsn = 'mysql:host=localhost;dbname=databasegeobtp';
@@ -12,4 +11,6 @@
         echo "Erreur de connexion : " . $e->getMessage();
         die(); // Arrêter l'exécution en cas d'erreur de connexion
     }
+
+
 ?>

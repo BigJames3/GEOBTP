@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^rapport/([0-9]+)$ rapport_afficher_donnees.php?id=$1 [NC,L]

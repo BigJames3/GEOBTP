@@ -38,7 +38,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                     <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                                     <li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
                                     <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                    <li><a href="deconnexion.php" style="opacity: 0.1;">Deconnexion</a></li>
+                                    <li><a href="deconnexion.php">Deconnexion</a></li>
                             </ul>
                         </div>
                         

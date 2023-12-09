@@ -2,8 +2,6 @@
     session_start();
     require_once('connexion.php');
 
-    
-
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['username'];
         $password = $_POST['password'];
@@ -57,15 +55,12 @@
     <!--Register Section-->
     <section class="register-section">
         <div class="auto-container">
-            <div class="row clearfix">
-                
+            <div class="row clearfix">                
                 <!--Form Column-->
-                <div class="form-column column col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                
+                <div class="form-column column col-lg-6 col-md-6 col-sm-12 col-xs-12">                
                     <div class="sec-title">
                         <h2>CONNEXION</h2>
-                    </div>
-                    
+                    </div>                    
                     <!--Login Form-->
                     <div class="styled-form login-form">
                         <form method="post" action="">
@@ -91,22 +86,17 @@
                             </div>                            
                         </form>
                         <?php if(isset($error)) { echo $error; } ?>
-                    </div>
-                    
+                    </div>                    
                 </div>
                 
                 <!--Form Column-->
-                <div class="form-column column col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                
+                <div class="form-column column col-lg-6 col-md-6 col-sm-12 col-xs-12">                
                     <div class="sec-title">
                         <h2>LABORATOIRE GEOTECHNIQUE</h2>
-                    </div>
-                    
+                    </div>                    
                     <!--Login Form-->
-                    <img src="../GEOBTP/images/resource/geobtp.webp" class="img-fluid" alt="Responsive image" class="img-thumbnail">
-                    
-                </div>
-                
+                    <img src="../GEOBTP/images/resource/geobtp.webp" class="img-fluid" alt="Responsive image" class="img-thumbnail">                    
+                </div>                
             </div>
         </div>
     </section>

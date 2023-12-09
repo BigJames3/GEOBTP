@@ -1,12 +1,20 @@
 <?php
 session_start();
-
+// Connexion à la base de données avec PDO
+require_once('connexion.php');
 // Vérifier si l'utilisateur est connecté
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header("location: account.php"); // Redirection vers la page de connexion si l'utilisateur n'est pas connecté
-    exit;
-}
+require_once('session.php');
 // Le reste du contenu de la page formulaire.php ici
+try {
+    $pdo = new PDO($dsn, $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    // Requête pour récupérer les données
+    $stmt = $pdo->query("SELECT * FROM rapport2023");
+    $donnees = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+    echo "Erreur : " . $e->getMessage();
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,10 +47,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 <body>
 <style>
     .box{
-  padding: 20px 10px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
+        padding: 20px 10px;
+        max-width: 1000px;
+        margin: 0 auto;
+        }
 </style>
 <div class="page-wrapper">  
     <!-- Preloader -->      
@@ -71,61 +79,37 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 <div class="table-outer">
                 <table id="example" class="table table-striped table-bordered" style="width:100%;">
                         <thead class="cart-header" >
-                            <tr class="entete-table">
-                                <th>Identifiant RAP</th>
+                            <tr class="entete-table" style="text-transform: uppercase;text-align:center;">
+                                <th>N°</th>
                                 <th>Entreprise</th>
                                 <th>Rapport</th>
                                 <th>Abreviation</th>
-                                <th>Lieu</th>
-                                <th>Date enregistrement</th>
-                                <th>Correspondant</th>
-                                <th>Mail</th>
-                                <th>Contact</th>
+                                <th>correspondant</th>
+                                <th>mail</th>
+                                <th>Lieu operation</th>
+                                <th>Numero</th>
+                                <th>DATE EMISSION</th>
+                                <th>code</th>
                                 <th>Options</th>
                             </tr>
                         </thead>
                         <tbody>
+                        <?php foreach ($donnees as $row): ?>
                             <tr>
-                                <td>0551654505122023</td>
-                                <td>System Architect</td>
-                                <td>RAPPORT DE CONTROLE PAR RESSUAGE</td>
-                                <td>CR</td>
-                                <td>Yopougon zone industriel</td>
-                                <td>05/12/2023</td>
-                                <td>KONAN</td>
-                                <td>konan@geobtp.com</td>
-                                <td>Numero</td>
-                                <td class="remove">
-                                    
-
-<button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-patch-plus-fill" viewBox="0 0 16 16" style="color: blue;">
-  <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8.5 6v1.5H10a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 1 0"/>
-</svg></button>                 
+                                <td><?php echo "00".$row['id']; ?></td>
+                                <td><?php echo $row['entreprise']; ?></td>
+                                <td><?php echo $row['titre_rapport']; ?></td>
+                                <td><?php echo $row['abreviation']; ?></td>
+                                <td><?php echo $row['correspondents_name']; ?></td>
+                                <td><?php echo $row['adresse_mail']; ?></td>
+                                <td><?php echo $row['lieux_des_traveaux']; ?></td>
+                                <td><?php echo $row['numero_correspondant']; ?></td>
+                                <td><?php echo $row['date_enregistrement']; ?></td>
+                                <td><?php echo $row['code1']; ?></td>
+                                <td><?php echo $row['code2']; ?></td>
+                                <!-- Ajoutez d'autres cellules en fonction de vos données -->
                             </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011-07-25</td>
-                                <td>$170,750</td>
-                                <th>Lieu</th>
-                                <th>Date</th>
-                                <th>Options</th>
-                                <td class="remove"><a href="#" class="remove-btn"><span class="flaticon-cancel-1"></span></a></td>
-                            </tr>
-                            <tr>
-                                <td>Herrod Chandler</td>
-                                <td>Sales Assistant</td>
-                                <td>San Francisco</td>
-                                <td>59</td>
-                                <td>2012-08-06</td>
-                                <td>$137,500</td>
-                                <th>Lieu</th>
-                                <th>Date</th>
-                                <th>Options</th>
-                                <td class="unit-price"><div class="available-info"><span class="icon fa fa-check"></span> Item(s) <br>Avilable Now</div></td>
-                            </tr>
+                        <?php endforeach; ?>
                         </tbody>
                     </table>
                 </div>
@@ -148,9 +132,13 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
 <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
-    <script>
-        $(document).ready(function() {  	
-            $('#example').DataTable();  
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function() {
+            $('#example').DataTable({
+                "order": [
+                    [0, "desc"] // Indiquez ici l'index de la colonne à trier en ordre décroissant (dans cet exemple, la première colonne)
+                ]
+            });
         });
     </script>
 </body>
