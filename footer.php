@@ -2,8 +2,7 @@
     	<div class="auto-container">
         <!--Widgets Section-->
             <div class="widgets-section">
-            	<div class="row clearfix">
-                	
+            	<div class="row clearfix">                	
                     <!--Column-->
                     <div class="column col-md-5 col-sm-6 col-xs-12">
 						<div class="footer-widget logo-widget">

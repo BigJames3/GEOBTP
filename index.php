@@ -45,7 +45,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2 class="dark">We are leader in <br> power & automation <br> technology</h2>
+                    	<h2 class="dark">Ingénierie Géotechnique <br> d'Excellence </h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -65,7 +65,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<div class="text style-two">Our Company has consistently embraced innovation to <br> provide a superior level of excellence.</div>
+                    	<div class="text style-two">Qualité et Engagement Constant</div>
                     </div>
                     
                     <div class="tp-caption" 
@@ -110,7 +110,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2>Save the planet by <br> using renewable <br> energy</h2>
+                    	<h2>Votre Partenaire de Confiance dans le BTP</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -130,7 +130,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<div class="text">Our Company has consistently embraced innovation to <br> provide a superior level of excellence.</div>
+                    	<div class="text">Contrôle Rigoureux des Travaux BTP</div>
                     </div>
                     
                     <div class="tp-caption" 
@@ -175,7 +175,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2>Provide superior <br> & best quality <br> results.</h2>
+                    	<h2>Supervision et Maîtrise d'Oeuvre Qualifiées</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -195,7 +195,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<div class="text">Our Company has consistently embraced innovation to <br> provide a superior level of excellence.</div>
+                    	<div class="text">Savoir-faire Éprouvé, Confiance Assurée <br>Normes Respectées, Solutions Adaptées </div>
                     </div>
                     
                     <div class="tp-caption" 
@@ -234,17 +234,10 @@ session_start();
                 
                     <!--Services Block Two-->
 					<div class="services-block-two col-md-3 col-sm-6 col-xs-12">
-                    	<div class="inner-box">
-                        	<div class="upper-box">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-alarm-clock"></span>
-                                </div>
-                                <h3><a href="market-single.html">Punctual Delivery Time</a></h3>
-                            </div>
+                    	<div class="inner-box" style="padding: 20px 15px 5px;">
                             <div class="lower-content">
                                 <div class="content-inner">
-                                    <div class="text">Rationally encounter for consequences seds uts all that extremely painful...</div>
-                                    <a href="market-single.html" class="know-more">Know More <span class="icon flaticon-right-arrow-1"></span></a>
+                                    <div class="text">Optimisez chaque étape de votre chantier avec nos solutions sur mesure et nos recommandations précises.</div>
                                 </div>
                             </div>
                         </div>
@@ -252,17 +245,10 @@ session_start();
                     
                     <!--Services Block Two-->
 					<div class="services-block-two col-md-3 col-sm-6 col-xs-12">
-                    	<div class="inner-box">
-                        	<div class="upper-box">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-education"></span>
-                                </div>
-                                <h3><a href="market-single.html">Smart Technology</a></h3>
-                            </div>
+                    	<div class="inner-box" style="padding: 20px 15px 5px;">
                             <div class="lower-content">
                                 <div class="content-inner">
-                                    <div class="text">Rationally encounter for consequences seds uts all that extremely painful...</div>
-                                    <a href="market-single.html" class="know-more">Know More <span class="icon flaticon-right-arrow-1"></span></a>
+                                    <div class="text">Augmentez la durabilité de vos constructions grâce à nos études géotechniques précises et fiables.</div>
                                 </div>
                             </div>
                         </div>
@@ -270,17 +256,10 @@ session_start();
                     
                     <!--Services Block Two-->
 					<div class="services-block-two col-md-3 col-sm-6 col-xs-12">
-                    	<div class="inner-box">
-                        	<div class="upper-box">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-time"></span>
-                                </div>
-                                <h3><a href="market-single.html">Easy and Affortable</a></h3>
-                            </div>
+                    	<div class="inner-box" style="padding: 20px 15px 5px;">
                             <div class="lower-content">
                                 <div class="content-inner">
-                                    <div class="text">Rationally encounter for consequences seds uts all that extremely painful...</div>
-                                    <a href="market-single.html" class="know-more">Know More <span class="icon flaticon-right-arrow-1"></span></a>
+                                    <div class="text">Des résultats éprouvés : notre engagement envers l'excellence assure le succès de vos projets de construction.</div>
                                 </div>
                             </div>
                         </div>
@@ -288,17 +267,10 @@ session_start();
                     
                     <!--Services Block Two-->
 					<div class="services-block-two col-md-3 col-sm-6 col-xs-12">
-                    	<div class="inner-box">
-                        	<div class="upper-box">
-                                <div class="icon-box">
-                                    <span class="icon flaticon-engineer"></span>
-                                </div>
-                                <h3><a href="market-single.html">Team Of Professionals</a></h3>
-                            </div>
+                    	<div class="inner-box" style="padding: 20px 15px 5px;">
                             <div class="lower-content">
                                 <div class="content-inner">
-                                    <div class="text">Rationally encounter for consequences seds uts all that extremely painful...</div>
-                                    <a href="market-single.html" class="know-more">Know More <span class="icon flaticon-right-arrow-1"></span></a>
+                                    <div class="text">Investissez dans la tranquillité d'esprit : notre expertise géotechnique garantit la solidité de vos projets.</div>
                                 </div>
                             </div>
                         </div>
@@ -314,8 +286,9 @@ session_start();
     <section class="market-section-two">
     	<div class="auto-container">
         	<div class="title-box">
-            	<h2>Market Sectors</h2>
-                <div class="text">Over 24 years experience & knowledge of international industrial systems, dedicated to provide the best economical solutions.</div>
+            	<h2>Nos Solutions Expertes</h2>
+                <div class="text">Fort de plus de 7 ans d'expérience dans les études géotechniques, le contrôle des travaux BTP et la supervision de projets de construction. 
+                    Notre engagement ? Offrir des prestations de qualité dans une recherche constante de la satisfaction du maitre d’ouvrage et des bailleurs</div>
             </div>
             <div class="row clearfix">
             	
@@ -325,14 +298,19 @@ session_start();
                     	<div class="image">
                         	<img src="images/resource/market-1.jpg" alt="" />
                             <div class="overlay-box">
-                            	<h2>Automotive <br> Manufacturing</h2>
+                            	<h2>GEOTECHNIQUE</h2>
+                                <ul>
+                                    <li>LES LOGICIELS TECHNIQUES</li>
+                                    <li>LES MATERIELS</li>
+                                    <li>ESSAIS IN SITU</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="content-overlay">
                         	<div class="content-inner">
                             	<div class="content">
-                                	<div class="text">Idea of denouncing pleasure and praising pain</div>
-                                    <a class="go" href="market-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                	<div class="text">La division possède des équipements ainsi que des logiciels dédiés à l'analyse et au traitement des données pour effectuer les tests majeurs d'identification et de comportement mécanique des sols et des roches.</div>
+                                    <a class="go" href="market-single.html">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -345,14 +323,20 @@ session_start();
                     	<div class="image">
                         	<img src="images/resource/market-2.jpg" alt="" />
                             <div class="overlay-box">
-                            	<h2>Industrial  <br> Construction</h2>
+                            	<h2>MATERIAUX - ROUTES</h2>
+                                <ul>
+                                    <li>LES MATERIELS</li>
+                                    <li>LES ESSAIS LABORATOIRE</li>
+                                    <li>LES TECHNIQUES ROUTIERES : VRD</li>
+                                    <li>ESSAIS SUR LE BETON</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="content-overlay">
                         	<div class="content-inner">
                             	<div class="content">
-                                	<div class="text">Idea of denouncing pleasure and praising pain</div>
-                                    <a class="go" href="market-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                	<div class="text">La division Matériaux opère des études et des essais de laboratoire standards pour les analyses physiques et mécaniques, ainsi que des études et essais spécifiques pour les routes. Elle utilise également des instruments et des mesures sur site. En collaboration avec les divisions Géotechnique et Maîtrise d’œuvre, elle effectue</div>
+                                    <a class="go" href="market-single.html">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -365,14 +349,19 @@ session_start();
                     	<div class="image">
                         	<img src="images/resource/market-3.jpg" alt="" />
                             <div class="overlay-box">
-                            	<h2>Oil & Gas <br> Conservation</h2>
+                            	<h2>MAITRISE D’OEUVRE - CONTROLE QUALITE - EXPERTISE</h2>
+                                <ul>
+                                    <li>CONTROLES QUALITES</li>
+                                    <li>MAITRISE D’OEUVRE</li>
+                                    <li>DIAGNOSTICS STRUCTURES</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="content-overlay">
                         	<div class="content-inner">
                             	<div class="content">
-                                	<div class="text">Idea of denouncing pleasure and praising pain</div>
-                                    <a class="go" href="market-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                	<div class="text">La division Maîtrise d’œuvre-Contrôle Extérieur-Expertise assure le suivi complet des projets géotechniques, dirige les chantiers en phase de travaux et offre une assistance technique au Maître d’œuvre pour les contrôles extérieurs. Elle réalise également des diagnostics sur les pathologies, propose des recommandations pour les réparations et apporte son expertise sur les constructions, ouvrages de génie civil et chaussées.</div>
+                                    <a class="go" href="market-single.html">En savoir plus <span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -397,12 +386,7 @@ session_start();
                             </div>
                         </div>
                     </div>
-                </div>
-                
-            </div>
-            
-            <div class="text-center">
-            	<a class="view-all" href="market-sectors.html">View All Sectors <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                </div>                
             </div>
             
         </div>
@@ -425,17 +409,14 @@ session_start();
                             <!--Testimonial Block Two-->
                             <div class="testimonial-block-two">
                             	<div class="inner-box">
-                                	<div class="author">
-                                    	<img src="images/resource/author-3.jpg" alt="" />
-                                    </div>
-                                    <h3>Teena Venanda</h3>
-                                    <div class="designation">Newyork City</div>
-                                    <div class="text">Must explain you how mistaken our denouncing pleasure & praising pain was born we will give all expound human happiness pursue mistaken idea of denouncing pleasure & praising.</div>
-                                    <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
+                                    <h3>GEOBTP</h3>
+                                    <div class="designation">LABORATOIRE GEOTECHNIQUE</div>
+                                    <div class="text">Bienvenue chez GEOBTP, votre partenaire de confiance pour les études géotechniques, le contrôle des travaux BTP et la supervision de projets de construction.</div>
+                                    <a href="#" class="read">Continuer à lire <span class="icon flaticon-right-arrow-1"></span></a>
                                 </div>
                             </div>
                             
-                            <!--Testimonial Block Two-->
+                            <!--Testimonial Block Two
                             <div class="testimonial-block-two">
                             	<div class="inner-box">
                                 	<div class="author">
@@ -447,8 +428,6 @@ session_start();
                                     <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
                                 </div>
                             </div>
-                            
-                            <!--Testimonial Block Two-->
                             <div class="testimonial-block-two">
                             	<div class="inner-box">
                                 	<div class="author">
@@ -459,7 +438,7 @@ session_start();
                                     <div class="text">Must explain you how mistaken our denouncing pleasure & praising pain was born we will give all expound human happiness pursue mistaken idea of denouncing pleasure & praising.</div>
                                     <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
                                 </div>
-                            </div>
+                            </div>-->
                             
                         </div>
                     </div>
@@ -469,7 +448,7 @@ session_start();
                 <div class="content-column col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-column">
                     	<div class="sec-title">
-                        	<h2>What We Achived</h2>
+                        	<h2>CE QUE NOUS AVONS RÉALISÉ</h2>
                             <div class="separator"></div>
                         </div>
                         <div class="bold-text">Strength & growth comes only through continuous effort.</div>
@@ -491,7 +470,7 @@ session_start();
     <section class="project-section">
     	<div class="auto-container">
         	<div class="sec-title centered">
-                <h2>Latest Projects</h2>
+                <h2>DERNIER PROJETS</h2>
                 <div class="separator"></div>
             </div>
 			
@@ -516,19 +495,12 @@ session_start();
                     <div class="project-block-two mix all engineer col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/1.jpg" alt="" />
+                            	<img src="images/gallery/geobtp012.jpg" alt="" />
                             </div>
                             <div class="lower-box">
                             	<h3>Boston Railway Station</h3>
                                 <div class="title">Construction</div>
                                 <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/1.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">Boston Railway Station</a></h4>
-                                    <div class="title">Construction</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -537,7 +509,7 @@ session_start();
                     <div class="project-block-two mix all power col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/2.jpg" alt="" />
+                            	<img src="images/gallery/geobtp012.jpg" alt="" />
                             </div>
                             <div class="lower-box">
                             	<h3>US Gas Company</h3>
@@ -558,7 +530,7 @@ session_start();
                     <div class="project-block-two mix all construction col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/3.jpg" alt="" />
+                            	<img src="images/gallery/geobtp012.jpg" alt="" />
                             </div>
                             <div class="lower-box">
                             	<h3>Golden Gate Bridge</h3>
@@ -579,7 +551,7 @@ session_start();
                     <div class="project-block-two mix all construction oil power col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/4.jpg" alt="" />
+                            	<img src="images/gallery/geobtp012.jpg" alt="" />
                             </div>
                             <div class="lower-box">
                             	<h3>Petroleum Tank Pipe</h3>
@@ -690,9 +662,9 @@ session_start();
     <!--Call To Action Section Two-->
     <section class="call-to-action-section-two" style="background-image:url(images/background/6.jpg)">
     	<div class="auto-container">
-			<h2>A Company Involved in Servicing, Maintenance & Repairs of Engines Prime Movers & Turbochargers.</h2>
-            <div class="text">We are integrated engineering company composed of a group of agile and experienced engineers skilled in different scopes of engineering work Assured plant availability and operational security.</div>
-            <a href="#" class="theme-btn btn-style-one">Meet Our Expert Team <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+			<h2>Chez GEOBTP, nous nous engageons à respecter rigoureusement les normes et méthodes reconnues dans le secteur. Tout en suivant ces standards, nous sommes également en mesure d'adapter nos méthodes d'essai pour répondre aux demandes spécifiques de nos clients.</h2>
+            <div class="text">Que ce soit pour la conception, la réalisation ou le suivi de vos ouvrages, GEOBTP s'engage à vous accompagner à chaque étape du processus. Nous identifions vos besoins spécifiques et vous proposons des solutions adaptées et innovantes.</div>
+            <a href="#" class="theme-btn btn-style-one">RENCONTREZ NOTRE ÉQUIPE D'EXPERTS<span class="icon flaticon-arrow-pointing-to-right"></span></a>
         </div>
     </section>
     
@@ -775,20 +747,21 @@ session_start();
                             <div class="row clearfix">
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <select class="custom-select-box">
-                                        <option>Select Needed Service</option>
-                                        <option>Services One</option>
-                                        <option>Services Two</option>
+                                        <option>--Selectionner un service--</option>
+                                        <option>❖ Division Géotechnique</option>
+                                        <option>❖ Division matériaux - routes</option>
+                                        <option>❖ Division Maitrise d’oeuvre</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="text" placeholder="Phone" required>
+                                    <input type="text" name="text" placeholder="télephone" required>
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="text" placeholder="Email Address" required>
+                                    <input type="text" name="text" placeholder="Addresse Email " required>
                                 </div>
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Now <span class="icon flaticon-arrow-pointing-to-right"></span></button>
-                                    <div class="text">Get a free quote for your industrial <br> business, We are here 24/7.</div>
+                                    <button class="theme-btn btn-style-one" type="submit" name="submit-form">ENVOYER MAINTENANT<span class="icon flaticon-arrow-pointing-to-right"></span></button>
+                                    <div class="text">Obtenez un devis gratuit, <br>nous sommes disponible 5j/7.</div>
                                 </div>
                             </div>
                         </form>
