@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require_once('connexion.php');
+    require('connexion.php');
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['username'];

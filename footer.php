@@ -10,14 +10,11 @@
                             	<a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
                             </div>
                             <div class="widget-content">
-                            	<div class="text">Global Street 5004, Newyork, United States.</div>
+                            	<div class="text">Abidjan, Cocody, 2 plateaux mobile, immeuble DAB-DAB, 3ème étage</div>
                                 <ul class="list">
-                                	<li>+0 625-07520-6644 </li>
-                                    <li>Mailus@Metroindustry.com</li>
-                                </ul>
-                                <div class="timing">
-                                	<span>Visit Our Office:</span>Monday - Satday: 9.00am to 5.00pm
-                                </div>
+                                	<li>(+225) 27 22 46 52 72</li>
+                                    <li>infos@geobtp.com</li>
+                                </ul> 
                                 <ul class="social-icon-one">
                                     <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                                     <li><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -32,26 +29,21 @@
                     <div class="column col-md-4 col-sm-6 col-xs-12">
 						<div class="footer-widget links-widget">
                         	<div class="footer-title">
-                            	<h2>Usefull Links</h2>
+                            	<h2>Liens Utiles</h2>
                             </div>
                             <div class="row clearfix">
                                 <div class="column col-md-6 col-sm-6 col-xs-12">
                                 	<ul class="links">
-                                    	<li><a href="#">About Us</a></li>
-                                        <li><a href="#">Meet Our Team</a></li>
-                                        <li><a href="#">Case Studies</a></li>
-                                        <li><a href="#">Get a Quote</a></li>
-                                        <li><a href="#">Testimonials</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                    	<li><a href="#">À propos de nous</a></li>
+                                        <li><a href="#">Vos besoins</a></li>
+                                        <li><a href="#">Obtenez un devis</a></li>
                                     </ul>
-                                </div>
+                                </div> 
                                 <div class="column col-md-6 col-sm-6 col-xs-12">
                                 	<ul class="links">
-                                    	<li><a href="#">Market Sectors</a></li>
-                                        <li><a href="#">Industries</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Why Choose Us</a></li>
-                                        <li><a href="#">Sustainability</a></li>
+                                    	<li><a href="#">Géotechnique</a></li>
+                                        <li><a href="#">matériaux - routes</a></li>
+                                        <li><a href="#">Maitrise d’oeuvre</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -65,9 +57,9 @@
                             	<h2>Our Materials</h2>
                             </div>
                             <ul class="list-style-two">
-                            	<li><span class="icon flaticon-doc"></span><a href="#">Company Investors</a>Year 2017-18</li>
-                                <li><span class="icon flaticon-doc"></span><a href="#">Industrial Training</a>For Constructors</li>
-                                <li><span class="icon flaticon-pdf"></span><a href="#">Company Growth</a>In Last 3 Years</li>
+                            	<li><span class="icon flaticon-doc"></span><a href="#">Politique qualité</a>Year 2017-18</li>
+                                <li><span class="icon flaticon-doc"></span><a href="#">Catalogue de presentation</a>For Constructors</li>
+                                <!--<li><span class="icon flaticon-pdf"></span><a href="#">Company Growth</a>In Last 3 Years</li>-->
                             </ul>
                         </div>
                     </div>

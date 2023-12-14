@@ -36,8 +36,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                     <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                                     <li><a href="deconnexion.php">Deconnexion</a></li>
                             </ul>
-                        </div>
-                        
+                        </div>                        
                         <!--Top Right
                         <div class="top-right clearfix">
                             <ul class="clearfix">                            
@@ -106,10 +105,11 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                                 <li><a href="market-sectors.php">GEOTECHNIQUE</a></li>
                                                 <li><a href="market-single.php">LES LOGICIELS TECHNIQUES</a></li>
                                             </ul>
-                                        </li>                                    
-                                        <li class="dropdown"><a href="#">Careers</a>
-                                            <ul>                                            
-                                                <li><a href="index.php">Nos offres d'emploi</a></li>
+                                        </li>
+                                        <li><a href="index.php">Carrière</a></li>                           
+                                         <!--
+                                        <li class="dropdown"><a href="#">Careers</a>                                       
+                                            <ul>
                                                 <li class="dropdown"><a href="#">Mon futur métier</a>
                                                     <ul>
                                                         <li><a href="index.html">Topographe</a></li>
@@ -118,8 +118,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                                         <li><a href="index-4.html">Header Style Four</a></li>
                                                     </ul>
                                                 </li>
-                                            </ul>
-                                        </li>
+                                            </ul>                                        
+                                        </li>-->
                                         <!--
                                         <li class="dropdown has-mega-menu"><a href="#">Vos besoins</a>
                                             <div class="mega-menu" style="background-image:url(images/background/mega-menu-layer.png)">
@@ -164,18 +164,20 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                         </li>
                                         -->
                                         <li><a href="contact.html">Contact</a></li>
-                                        <li class="dropdown"><a href="#">rapport</a>
+                                        <li class="dropdown"><a href="#">Rapport</a>
                                             <ul>
                                                 <li><a href="form-add-rapport.php">Ajouter un rapport</a></li>
                                                 <li><a href="accueil_page_des_rapports.php">Liste rapport</a></li>
                                             </ul>
                                         </li>
+                                        <!--
                                         <li class="dropdown"><a href="#">Certificat</a>
                                             <ul>
                                                 <li><a href="form-add-certificat.php">Ajouter un Certificat</a></li>
                                                 <li><a href="accueil_page_des_certificats.php">Liste Certificat</a></li>
                                             </ul>
-                                        </li>                                        
+                                        </li>
+                                        -->                                   
                                     </ul>
                                 </div>
                             </nav>
