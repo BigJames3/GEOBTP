@@ -23,8 +23,7 @@ session_start();
     	
         <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_two_wrapper" data-source="gallery">
             <div class="rev_slider fullwidthabanner" id="rev_slider_two" data-version="5.4.1">
-                <ul>
-                	
+                <ul>                	
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-4.jpg" data-title="Slide Title" data-transition="parallaxvertical">
                     <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-4.jpg"> 
                     
@@ -110,7 +109,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2>Votre Partenaire de Confiance dans le BTP</h2>
+                    	<h2 style="text-align: center;">Votre Partenaire de Confiance dans le BTP</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -374,13 +373,13 @@ session_start();
                     	<div class="image">
                         	<img src="images/resource/market-4.jpg" alt="" />
                             <div class="overlay-box">
-                            	<h2>Material <br> Engineering</h2>
+                            	<h2>ANALYSE LOBORATOIRE ET ESSAIS IN SITU</h2>
                             </div>
                         </div>
                         <div class="content-overlay">
                         	<div class="content-inner">
                             	<div class="content">
-                                	<div class="text">Idea of denouncing pleasure and praising pain</div>
+                                	<div class="text">Nous réalisons toutes les analyses laboratoires nécessaire à vos projets, pour connaitre la nature des sols que nous sondons, leur composition, compacité, mais également des essais spécifiques pour les voiries…</div>
                                     <a class="go" href="market-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
