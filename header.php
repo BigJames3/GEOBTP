@@ -47,8 +47,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                 <div class="auto-container">
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
-                        <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
+                        <div class="logo-box"> <!-- images/logo-2.png-->
+                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>                        
                         <!--Nav Outer-->
                         <div class="nav-outer clearfix">                        
@@ -96,8 +96,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                 <div class="auto-container">                    
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
-                        <div class="logo-box pull-left">
-                            <div class="logo"><a href="index.html"><img src="images/logo-small.png" alt=""></a></div>
+                        <div class="logo-box pull-left"><!-- logogeobtp.png -->
+                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>                        
                         <!--Nav Outer-->
                         <div class="nav-outer clearfix">
@@ -181,7 +181,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
+                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>                        
                         <!--Nav Outer-->
                         <div class="nav-outer clearfix">                        
@@ -198,7 +198,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.php">Bienvenue</a></li>
-                                        <li><a href="about.php">A propos</a></li>
+                                        <li><a href="about.php">Qui Sommes-Nous</a></li>
                                         <li class="dropdown"><a href="#">Vos besoins</a>
                                             <ul>
                                                 <li><a href="service-geotechnique.php">GEOTECHNIQUE</a></li>
@@ -207,36 +207,29 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                             </ul>
                                         </li>
                                         <li><a href="carrier.php">Carrière</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="dropdown"><a href="#">Rapport</a>
-                                            <ul>
-                                                <li><a href="form-add-rapport.php">Ajouter un rapport</a></li>
-                                                <li><a href="accueil_page_des_rapports.php">Liste des rapports</a></li>
-                                            </ul>
-                                        </li>                                 
+                                        <li><a href="contact.html">Contact</a></li>                               
                                     </ul>
                                 </div>
                             </nav>
                             <!-- Main Menu End-->                            
                             <!--Outer Box-->
                             <div class="outer-box">
-                                <a href="#" class="theme-btn quote-btn" data-toggle="modal" data-target="#schedule-box">DEVI <span class="icon icon-two"></span></a>                           
+                                <a href="#" class="theme-btn quote-btn" data-toggle="modal" data-target="#schedule-box">DEVI</a>                           
                             </div>                        
                         </div>
                         <!--Nav Outer End-->                        
                     </div>    
                 </div>
             </div>
-            
             <!--Header Lower-->
             <div class="header-lower">
                 <div class="auto-container clearfix">
                     <div class="lower-left pull-left">                    
                         <!--Info Box-->
                         <div class="upper-column info-box">
-                            <div class="icon-box"><span class="flaticon-signature"></span></div>
+                            <div class="icon-box"><img src="images/certificatISO.png" alt="" style="width: 60px;height: 57px;"></div>
                             <ul>
-                                <li><strong>ENTREPRISE CERTIFIÉE</strong>ISO 9001</li>
+                                <li><strong>BUREAU CERTIFIÉE</strong>ISO 9001</li>
                             </ul>
                         </div>                        
                         <!--Info Box-->
@@ -275,7 +268,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
                         <div class="logo-box pull-left">
-                            <div class="logo"><a href="index.html"><img src="images/logo-small.png" alt=""></a></div>
+                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>
                         
                         <!--Nav Outer-->
@@ -293,7 +286,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.php">Bienvenue</a></li>
-                                        <li><a href="about.php">Apropos</a></li>
+                                        <li><a href="about.php">Qui Sommes-Nous</a></li>
                                         <li class="dropdown"><a href="#">Vos besoins</a>
                                             <ul>
                                                 <li><a href="service-geotechnique.php">GEOTECHNIQUE</a></li>
@@ -302,13 +295,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                             </ul>
                                         </li>
                                         <li><a href="carrier.php">Carrière</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="dropdown"><a href="#">Rapport</a>
-                                            <ul>
-                                                <li><a href="form-add-rapport.php">Ajouter un rapport</a></li>
-                                                <li><a href="accueil_page_des_rapports.php">Liste rapport</a></li>
-                                            </ul>
-                                        </li>                                 
+                                        <li><a href="contact.html">Contact</a></li>                                
                                     </ul>
                                 </div>
                             </nav>

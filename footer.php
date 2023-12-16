@@ -7,10 +7,10 @@
                     <div class="column col-md-5 col-sm-6 col-xs-12">
 						<div class="footer-widget logo-widget">
 							<div class="logo">
-                            	<a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
+                            	<a href="index.html"><img src="images/logogeobtp.png" alt="" /></a>
                             </div>
                             <div class="widget-content">
-                            	<div class="text">Abidjan, Cocody, 2 plateaux mobile, immeuble DAB-DAB, 3ème étage</div>
+                            	<div class="text">Abidjan, Cocody, 2 plateaux mobile, <br> immeuble DAB-DAB, 3ème étage</div>
                                 <ul class="list">
                                 	<li>(+225) 27 22 46 52 72</li>
                                     <li>infos@geobtp.com</li>

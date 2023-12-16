@@ -29,27 +29,93 @@ session_start();
     </section>
     <!--End Page Title-->
     
-    <!--Company Section-->
-    <section class="company-section">
+        <!--About Section-->
+        <section class="about-section">
     	<div class="auto-container">
         	<div class="row clearfix">
             	
                 <!--Content Column-->
-                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                <div class="content-column col-md-8 col-sm-12 col-xs-12">
                 	<div class="inner-column">
                     	<div class="sec-title">
-                        	<h2>Company Over View</h2>
-                            <div class="separator centered"></div>
+                        	<h2>HISTOIRE DE GEOBTP</h2>
+                            <div class="separator"></div>
                         </div>
-                        <div class="bold-text">We Providing Best Indutrial Solution For Our Customers Business Growing In Last 25+ Years.</div>
-                        <div class="text">
-                        	<p>Pleasure and praising pain was born and will give you complete works of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness explain too you this mistaken praising pain was born and will give you a complete account the system, and expound.</p>
-                            <p>Denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of  truth, the master-builder of human happiness.</p>
+                        <div class="bold-text">ETUDE EN INGÉNIERIE GEOTECHNIQUE DU BATIMENT DES TRAVAUX PUBLICS <br> ET CONTROLE DES TRAVAUX BTP</div>
+                        <div class="text">Fondé en 2017, <strong>GEOBTP</strong> émane de l'élan ambitieux d'une Côte d'Ivoire résolument tournée vers la modernité et l'essor économique, animé par une passion inébranlable pour l'ingénierie géotechnique. Nous sommes un laboratoire spécialisé, mettant en avant un savoir-faire solide et des compétences établies à partir d'un bureau d'études géotechniques, piloté par des experts expérimentés et passionnés.</div>
+                        <ul class="about-block clearfix">
+                        	<li><span class="icon"><img src="images/icons/time.svg" alt="" width="50" /></span>Division <br> Géotechnique</li>
+                            <li><span class="icon"><img src="images/icons/technology.svg" alt="" width="50" /></span>Division des <br> Matériaux pour les routes</li>
+                            <li><span class="icon"><img src="images/icons/cogwheel.svg" alt="" width="50" /></span>Division de la <br> Maîtrise d’Œuvre.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Carousel Column-->
+                <div class="carousel-column col-md-4 col-sm-12 col-xs-12">
+                	<div class="inner-column">
+                    	<div class="single-item-carousel owl-carousel owl-theme">
+                        	
+                            <!--Testimonial Block Three-->
+                            <div class="testimonial-block-three">
+                            	<div class="inner-box">
+                                	<div class="upper-box">
+                                    	<div class="icon flaticon-target"></div>
+                                        <h2>Notre Philosophie</h2>
+                                    </div>
+                                    <div class="text">Réaliser des prestations de qualité dans une recherche constante de la satisfaction du maitre d’ouvrage et des bailleurs"</div>
+                                </div>
+                            </div>
+                            
+                            <!--Testimonial Block Three-->
+                            <div class="testimonial-block-three">
+                            	<div class="inner-box">
+                                	<div class="upper-box">
+                                    	<div class="icon flaticon-target"></div>
+                                        <h2>Nos Valeurs</h2>
+                                    </div>
+                                    <div class="text">Savoir-faire et Qualité, Engagement, Disponibilité, Responsabilité, Confiance et Proximité</div>
+                                </div>
+                            </div>
+                            
+                            <!--Testimonial Block Three-->
+                            <div class="testimonial-block-three">
+                            	<div class="inner-box">
+                                	<div class="upper-box">
+                                    	<div class="icon flaticon-target"></div>
+                                        <h2>Notre Mission</h2>
+                                    </div>
+                                    <div class="text">De par les statuts nous intervenons dans les domaines de la géotechnique du bâtiment et des travaux publics, de l’environnement, l’ingénierie et la maîtrise d’oeuvre, l’assistance technique, le conseil technique, l’expertise.</div>
+                                </div>
+                            </div>
+                            
                         </div>
-                        <div class="signature"><img src="images/resource/signature.png" alt="" /></div>
                     </div>
                 </div>
                 
+            </div>
+        </div>
+    </section>
+    <!--End About Section-->
+
+    <!--Call To Action Section-->
+    <section class="call-to-action-section" style="background-image:url(images/background/5.jpg)">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            	<div class="col-md-9 col-sm-12 col-xs-12">
+                	<h2>laboratoire d'etude et des travaux publics GEOBTP</h2>
+                </div>
+                <div class="link-column col-md-3 col-sm-12 col-xs-12">
+                	<a class="apointment" href="#">PRENDRE RENDEZ-VOUS <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Call To Action Section-->
+
+    <!--Company Section-->
+    <section class="company-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">                
                 <!--Image Column-->
                 <div class="image-column col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-column">
@@ -57,61 +123,66 @@ session_start();
                         	<img src="images/resource/company.jpg" alt="" />
                         </div>
                         <div class="carousel-box">
-                        	<div class="single-item-carousel owl-carousel owl-box">
-                            
+                        	<div class="single-item-carousel owl-carousel owl-box">                            
                                 <div class="testimonial-block-six">
                                     <div class="inner">
                                         <div class="quote-icon">
                                             <span class="icon flaticon-left-quote-sketch"></span>
                                         </div>
-                                        <div class="text">Positive behavioral supports is a behavior management system used to understand behavior. </div>
-                                        <div class="author-box">
-                                            <div class="author-inner">
-                                                <div class="image"><img src="images/resource/author-6.jpg" alt="" /></div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="designation">CEO & Founder</div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-                                
-                                <div class="testimonial-block-six">
-                                    <div class="inner">
-                                        <div class="quote-icon">
-                                            <span class="icon flaticon-left-quote-sketch"></span>
-                                        </div>
-                                        <div class="text">Positive behavioral supports is a behavior management system used to understand behavior. </div>
-                                        <div class="author-box">
-                                            <div class="author-inner">
-                                                <div class="image"><img src="images/resource/author-6.jpg" alt="" /></div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="designation">CEO & Founder</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="testimonial-block-six">
-                                    <div class="inner">
-                                        <div class="quote-icon">
-                                            <span class="icon flaticon-left-quote-sketch"></span>
-                                        </div>
-                                        <div class="text">Positive behavioral supports is a behavior management system used to understand behavior. </div>
-                                        <div class="author-box">
-                                            <div class="author-inner">
-                                                <div class="image"><img src="images/resource/author-6.jpg" alt="" /></div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="designation">CEO & Founder</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
                             </div>
                         </div>
                     </div>
                 </div>
-                
+            	
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                	<div class="inner-column">
+                    	<div class="sec-title">
+                        	<h2>Pour notre expertise géotechnique</h2>
+                            <div class="separator centered"></div>
+                        </div>
+                        <div class="text">
+                        	<p>Nos Ingénieurs accompagnent nos techniciens au quotidien dans un souci permanent de fiabilité, de qualité et d’exhaustivité des études. Quel que soit votre projet, nos équipes sauront trouver la réponse à sa problématique géotechnique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="auto-container">
+        	<div class="row clearfix"  style="margin-top: 20px;">
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                	<div class="inner-column">
+                    	<div class="sec-title">
+                        	<h2>Pour votre sécurité</h2>
+                            <div class="separator centered"></div>
+                        </div>
+                        <div class="text">
+                        	<p>L’ application des normes, des réglementations et des recommandations professionnelles sont nos principaux engagements, confirmés par notre système de Management Qualité. GEOBTP s’évertue à optimiser votre projet tout en préservant la sécurité de votre bien dans le respect de votre budget.</p>
+                        </div>
+                    </div>
+                </div>               
+                <!--Image Column-->
+                <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                	<div class="inner-column">
+                    	<div class="image">
+                        	<img src="images/resource/company.jpg" alt="" />
+                        </div>
+                        <div class="carousel-box">
+                        	<div class="single-item-carousel owl-carousel owl-box">                            
+                                <div class="testimonial-block-six">
+                                    <div class="inner">
+                                        <div class="quote-icon">
+                                            <span class="icon flaticon-left-quote-sketch"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -122,200 +193,113 @@ session_start();
     	<div class="image-layer" style="background-image:url(images/background/10.jpg)"></div>
     	<div class="auto-container">
         	<div class="row clearfix">
-            	
+            <h2>NOS DOMAINES D'INTERVENTION</h2>
                 <!--Content Column-->
-                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                <div class="content-column col-md-12 col-sm-12 col-xs-12">
                 	<div class="inner-column">
                     	<div class="sec-title">
-                        	<h2>Our Highlights</h2>
+                        	<h2></h2>
                             <div class="separator centered"></div>
                         </div>
                         
-                        <div class="row clearfix">
-                        	
+                        <div class="row clearfix">                        	
                             <!--Hightlight Block-->
                             <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
                             	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-target"></span>
-                                    </div>
-                                    <h3>Mission</h3>
-                                    <a href="#" class="overlay-link"></a>
+                                    <h3>• Bâtiments commerciaux</h3>                                    
                                 </div>
                             </div>
                             
                             <!--Hightlight Block-->
                             <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
                             	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-graph"></span>
-                                    </div>
-                                    <h3>Vision</h3>
-                                    <a href="#" class="overlay-link"></a>
+                                    <h3>• Bâtiments de bureaux</h3>                                    
                                 </div>
                             </div>
                             
                             <!--Hightlight Block-->
                             <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
                             	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-quality"></span>
-                                    </div>
-                                    <h3>Core Values</h3>
-                                    <a href="#" class="overlay-link"></a>
+                                    <h3>• Bâtiments industriels</h3>                                    
                                 </div>
                             </div>
                             
                             <!--Hightlight Block-->
                             <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
                             	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-idea"></span>
-                                    </div>
-                                    <h3>Strategy</h3>
-                                    <a href="#" class="overlay-link"></a>
+                                    <h3>• Autoroutes et routes</h3>                                    
                                 </div>
                             </div>
                             
                             <!--Hightlight Block-->
                             <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
                             	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-loupe"></span>
-                                    </div>
-                                    <h3>Research</h3>
-                                    <a href="#" class="overlay-link"></a>
+                                    <h3>• Bâtiments logistiques</h3>                                    
                                 </div>
                             </div>
                             
                             <!--Hightlight Block-->
                             <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
                             	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-people-1"></span>
-                                    </div>
-                                    <h3>Leadership</h3>
-                                    <a href="#" class="overlay-link"></a>
+                                    <h3>• Gestion des eaux</h3>                                    
+                                </div>
+                            </div>
+                            
+                            <!--Hightlight Block-->
+                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
+                            	<div class="hightlight-inner">
+                                    <h3>• Soutènement</h3>                                    
+                                </div>
+                            </div>
+                            
+                            <!--Hightlight Block-->
+                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
+                            	<div class="hightlight-inner">
+                                    <h3>• Lotissements et habitations</h3>                                    
+                                </div>
+                            </div>
+                            
+                            <!--Hightlight Block-->
+                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
+                            	<div class="hightlight-inner">
+                                    <h3>• Ports et aéroports</h3>                                    
+                                </div>
+                            </div>
+                            
+                            <!--Hightlight Block-->
+                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
+                            	<div class="hightlight-inner">
+                                    <h3>• Voies ferrées</h3>                                    
+                                </div>
+                            </div>
+                            
+                            <!--Hightlight Block-->
+                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
+                            	<div class="hightlight-inner">
+                                    <h3>• Diagnostic géotechnique</h3>                                    
+                                </div>
+                            </div>
+                            
+                            <!--Hightlight Block-->
+                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
+                            	<div class="hightlight-inner">
+                                    <h3>• Autres ouvrages</h3>                                    
                                 </div>
                             </div>
                             
                         </div>
                         
                     </div>
-                </div>
-                
-                <!--Services Column-->
-                <div class="services-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                        <div class="upper-box">
-                            <div class="icon flaticon-target"></div>
-                            <h2>Our Mission</h2>
-                        </div>
-                        <div class="text">We work systematically to integrate corporate responsibility in our core business and make our expertise available for the benefit of the to take a trivial example, which of us ever undertakes laborious physical exercise,societies...</div>
-                        <a href="market-sectors.html" class="services">Our Services <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                    </div>
-                </div>
-                
+                </div>                
             </div>
         </div>
     </section>
     <!--End Highlights Section-->
     
-    <!--History Section-->
-    <section class="history-section">
-    	<div class="auto-container">
-        	<div class="sec-title centered">
-            	<h2>History In Words</h2>
-                <div class="separator"></div>
-            </div>
-            
-            <div class="history-carousel">
-                <div class="carousel-outer">
-                    <div class="thumbs-outer">
-                        <ul class="thumbs-carousel owl-carousel owl-theme">
-                            <li>1975</li>
-                            <li>1976</li>
-                            <li>1977</li>
-                            <li>1978</li>
-                            <li>1979</li>
-                            <li>1980</li>
-                            <li>1981</li>
-                            <li>1982</li>
-                        </ul>
-                    </div>
-                    <div class="content-carousel owl-carousel owl-theme">
-                    
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1975</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1976</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1977</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1978</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1979</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1980</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1981</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                        <div class="content-slide">
-                        	<div class="content-inner">
-                            	<h3>Got Our First Award</h3>
-                                <div class="date">July 21st, 1982</div>
-                                <div class="text"> How all this mistaken idea sedsdenouncing pleasure and praisingpain was born and I will give you a complete count of the system expound the actual teachings know how to pursue pleasure rationally encounter consequences extremely painful anyone desires to obtain pain of itself.</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!--End History Section-->
-    
-    <!--Achived Section-->
+    <!--Achived Section
     <section class="achived-section" style="background-image:url(images/background/11.jpg)">
     	<div class="auto-container">
         	<div class="row clearfix">
-            	
-                <!--Title Column-->
                 <div class="title-column col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-column">
                     	<div class="sec-title light">
@@ -331,15 +315,10 @@ session_start();
                         <div class="text">Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you sed a complete account of the system expound  know how to pursue pleasure .</div>
                     </div>
                 </div>
-                <!--Graph Column-->
                 <div class="graph-column col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-column">
-                    	
-                        <!--Progress Levels-->
                         <div class="progress-levels">
                             <div class="row clearfix">
-                            
-                                <!--Skill Box-->
                                 <div class="progress-box wow">
                                     <div class="inner count-box">
                                         <div class="bar">
@@ -355,8 +334,6 @@ session_start();
                                         <div class="text">Production</div>
                                     </div>
                                 </div>
-                                
-                                <!--Skill Box-->
                                 <div class="progress-box wow">
                                     <div class="inner count-box">
                                         <div class="bar">
@@ -372,8 +349,6 @@ session_start();
                                         <div class="text">EPC Works</div>
                                     </div>
                                 </div>
-                                
-                                <!--Skill Box-->
                                 <div class="progress-box wow">
                                     <div class="inner count-box">
                                         <div class="bar">
@@ -389,8 +364,6 @@ session_start();
                                         <div class="text">Domestic</div>
                                     </div>
                                 </div>
-                                
-                                <!--Skill Box-->
                                 <div class="progress-box wow">
                                     <div class="inner count-box">
                                         <div class="bar">
@@ -406,8 +379,6 @@ session_start();
                                         <div class="text">International</div>
                                     </div>
                                 </div>
-                                
-                                <!--Skill Box-->
                                 <div class="progress-box wow">
                                     <div class="inner count-box">
                                         <div class="bar">
@@ -423,7 +394,6 @@ session_start();
                                         <div class="text">Satisfaction</div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                         
@@ -432,118 +402,9 @@ session_start();
                 
             </div>
         </div>
-    </section>
+    </section>-->
     <!--End Achived Section-->
-    
-    <!--Team Section-->
-    <section class="team-section">
-    	<div class="auto-container">
-        	<div class="sec-title centered">
-            	<h2>Behind Our Success</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="row clearfix">
-            	
-                <!--Team Block-->
-                <div class="team-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<img src="images/resource/team-1.jpg" alt="" />
-                            <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">Donald <br> T. Benjamin</a></h3>
-                            <div class="designation">CEO & Founder</div>
-                            <div class="text">Donald T.Benjamin has over 5 years of executive leadership experience.</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Team Block-->
-                <div class="team-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<img src="images/resource/team-2.jpg" alt="" />
-                            <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">Nichel <br> M. Petercomb</a></h3>
-                            <div class="designation">President</div>
-                            <div class="text">Denouncing pleasure & pain was born and I will give you a complete account.</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Team Block-->
-                <div class="team-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<img src="images/resource/team-3.jpg" alt="" />
-                            <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">AK. <br> Van Nicholes</a></h3>
-                            <div class="designation">Team Leader</div>
-                            <div class="text">Complete account the work system, and expound that actual our all skills.</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Team Block-->
-                <div class="team-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<img src="images/resource/team-4.jpg" alt="" />
-                            <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">Courtney <br> Ybarra</a></h3>
-                            <div class="designation">Project Manager</div>
-                            <div class="text">Courtney Ybarra has over 11 years of executive leadership experience.</div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Team Section-->
-    
-    <!--Call To Action Section-->
-    <section class="call-to-action-section" style="background-image:url(images/background/5.jpg)">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	<div class="col-md-9 col-sm-12 col-xs-12">
-                	<h2>Quality service for construction projects and Automative service.</h2>
-                </div>
-                <div class="link-column col-md-3 col-sm-12 col-xs-12">
-                	<a class="apointment" href="#">Make an Appointment <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Call To Action Section-->
-    
+
     <!--Quote Form-->
     <?php include 'quoteform.php';?>
     <!-- End of #schedule-box -->
