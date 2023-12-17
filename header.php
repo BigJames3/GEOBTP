@@ -65,7 +65,12 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.php">Bienvenue</a></li>
-                                        <li><a href="about.php">Apropos</a></li>
+                                        <li><a href="about.php">À propos</a></li>
+                                        
+                                        <li><a href="service-geotechnique.php">Géotechnique</a></li>
+                                        <li><a href="service-maitrise-oeuvre.php">Maitrise d'oeuvre</a></li>
+                                        <li><a href="service-materiaux-rout.php">matériaux - Routes</a></li>
+                                        <!-- Main Menu End
                                         <li class="dropdown"><a href="#">Vos besoins</a>
                                             <ul>
                                                 <li><a href="service-geotechnique.php">GEOTECHNIQUE</a></li>
@@ -74,13 +79,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                             </ul>
                                         </li>
                                         <li><a href="carrier.php">Carrière</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="dropdown"><a href="#">Rapport</a>
-                                            <ul>
-                                                <li><a href="form-add-rapport.php">Ajouter un rapport</a></li>
-                                                <li><a href="accueil_page_des_rapports.php">Liste rapport</a></li>
-                                            </ul>
-                                        </li>                                 
+                                        -->
+                                        <li><a href="contact.html">Contact</a></li>                               
                                     </ul>
                                 </div>
                             </nav>
@@ -110,11 +110,16 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                </div>                              
+                                </div>                               
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.php">Bienvenue</a></li>
-                                        <li><a href="about.php">Apropos</a></li>
+                                        <li><a href="about.php">À propos</a></li>
+                                        
+                                        <li><a href="service-geotechnique.php">Géotechnique</a></li>
+                                        <li><a href="service-maitrise-oeuvre.php">Maitrise d'oeuvre</a></li>
+                                        <li><a href="service-materiaux-rout.php">matériaux - Routes</a></li>
+                                        <!-- Main Menu End
                                         <li class="dropdown"><a href="#">Vos besoins</a>
                                             <ul>
                                                 <li><a href="service-geotechnique.php">GEOTECHNIQUE</a></li>
@@ -123,13 +128,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                             </ul>
                                         </li>
                                         <li><a href="carrier.php">Carrière</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="dropdown"><a href="#">Rapport</a>
-                                            <ul>
-                                                <li><a href="form-add-rapport.php">Ajouter un rapport</a></li>
-                                                <li><a href="accueil_page_des_rapports.php">Liste rapport</a></li>
-                                            </ul>
-                                        </li>                                 
+                                        -->
+                                        <li><a href="contact.html">Contact</a></li>                               
                                     </ul>
                                 </div>
                             </nav>
@@ -165,8 +165,6 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <li><a href="#"><span class="icon flaticon-placeholder-2"></span>COCODY 2 PLATEAUX MOBIL</a></li>                                                        
                                     <li><a href="https://www.facebook.com/geobtp.ci.75"><span class="fa fa-facebook"></span></a></li>
                                     <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-whatsapp"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                                     <li><a href="account.php" style="opacity: 0.1;">&nbsp;_&nbsp;</a></li>
                             </ul>
                         </div>
@@ -198,7 +196,12 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.php">Bienvenue</a></li>
-                                        <li><a href="about.php">Qui Sommes-Nous</a></li>
+                                        <li><a href="about.php">À propos</a></li>
+                                        
+                                        <li><a href="service-geotechnique.php">Géotechnique</a></li>
+                                        <li><a href="service-maitrise-oeuvre.php">Maitrise d'oeuvre</a></li>
+                                        <li><a href="service-materiaux-rout.php">matériaux - Routes</a></li>
+                                        <!-- Main Menu End
                                         <li class="dropdown"><a href="#">Vos besoins</a>
                                             <ul>
                                                 <li><a href="service-geotechnique.php">GEOTECHNIQUE</a></li>
@@ -207,6 +210,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                             </ul>
                                         </li>
                                         <li><a href="carrier.php">Carrière</a></li>
+                                        -->
                                         <li><a href="contact.html">Contact</a></li>                               
                                     </ul>
                                 </div>
@@ -286,7 +290,12 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.php">Bienvenue</a></li>
-                                        <li><a href="about.php">Qui Sommes-Nous</a></li>
+                                        <li><a href="about.php">À propos</a></li>
+                                        
+                                        <li><a href="service-geotechnique.php">Géotechnique</a></li>
+                                        <li><a href="service-maitrise-oeuvre.php">Maitrise d'oeuvre</a></li>
+                                        <li><a href="service-materiaux-rout.php">matériaux - Routes</a></li>
+                                        <!-- Main Menu End
                                         <li class="dropdown"><a href="#">Vos besoins</a>
                                             <ul>
                                                 <li><a href="service-geotechnique.php">GEOTECHNIQUE</a></li>
@@ -295,7 +304,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                                             </ul>
                                         </li>
                                         <li><a href="carrier.php">Carrière</a></li>
-                                        <li><a href="contact.html">Contact</a></li>                                
+                                        -->
+                                        <li><a href="contact.html">Contact</a></li>                               
                                     </ul>
                                 </div>
                             </nav>
