@@ -48,7 +48,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
                         <div class="logo-box"> <!-- images/logo-2.png-->
-                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>                        
                         <!--Nav Outer-->
                         <div class="nav-outer clearfix">                        
@@ -97,7 +97,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
                         <div class="logo-box pull-left"><!-- logogeobtp.png -->
-                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>                        
                         <!--Nav Outer-->
                         <div class="nav-outer clearfix">
@@ -179,7 +179,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>                        
                         <!--Nav Outer-->
                         <div class="nav-outer clearfix">                        
@@ -272,7 +272,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                     <div class="outer-container clearfix">
                         <!--Logo Box-->
                         <div class="logo-box pull-left">
-                            <div class="logo"><a href="index.html"><img src="images/logogeobtp.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logogeobtp.png" alt=""></a></div>
                         </div>
                         
                         <!--Nav Outer-->
