@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-    <title>The Metron - Industry and Factory HTML Template | Homepage Style Two</title>
+        <title>GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS | MAINTENANCE DU SITE</title>
         <?php include 'head.php';?>
     </head>    
 <body>

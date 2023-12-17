@@ -42,7 +42,7 @@ if (isset($_GET['id'])) {
 <!DOCTYPE html>
 <html>
     <head>
-	<title>The Metron</title>
+        <title>GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS</title>
         <?php include 'head.php';?>
     </head>    
 <body>

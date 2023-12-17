@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title> GEOBTP | POLITIQUE QUALITE </title>
+        <title> GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS| POLITIQUE QUALITE </title>
         <?php include 'head.php';?>
     </head>    
 <body>
@@ -33,7 +33,7 @@ session_start();
 
                 <div class="sidebar-side col-lg-2 col-md-2 col-sm-12 col-xs-12">                	
                 </div>
-                
+
                 <!--Content Side-->
                 <div class="content-side col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 	<!--Market Single-->

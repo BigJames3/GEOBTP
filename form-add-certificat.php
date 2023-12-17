@@ -8,7 +8,7 @@ require_once('session.php');
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GEOBTP | AJOUTER CERTIFICAT</title>
+        <title>GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS | AJOUTER CERTIFICAT</title>
         <?php include 'head.php';?>
     </head>    
 <body>

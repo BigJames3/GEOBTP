@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Metron - Industry and Factory HTML Template | Market Single</title>
+        <title> GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS | MAITRISE D'D’OEUVRE - EXPERTISE - CONTROLES QUALITES </title>
         <?php include 'head.php';?>
     </head>
     

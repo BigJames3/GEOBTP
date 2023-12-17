@@ -27,7 +27,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Metron - Industry and Factory HTML Template | Account</title>
+        <title>
+        <title>GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS | CONNEXION</title></title>
         <?php include 'head.php';?>
     </head> 
 <body>

@@ -12,7 +12,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>login page</title>
+        <title>GEOBTP - GEOTECHNIQUE | Ajouter Rapport</title>
         <?php include 'head.php';?>
     </head>    
 <body>

@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title> GEOBTP | CERTIFICAT</title>
+        <title> GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS | CERTIFICAT</title>
         <?php include 'head.php';?>
     </head>
     

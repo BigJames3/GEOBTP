@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Metron - Industry and Factory HTML Template | Project Modern</title>
+        <title>GEOBTP - GEOTECHNIQUE | CONTACT</title>
         <?php include 'head.php';?>
     </head>
     

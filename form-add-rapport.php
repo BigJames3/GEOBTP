@@ -8,7 +8,7 @@ require_once('session.php');
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Metron - Industry</title>
+        <title>GEOBTP - ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS | RAPPORTS</title>
         <?php include 'head.php';?>
     </head>    
 <body>
