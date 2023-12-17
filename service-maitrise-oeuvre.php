@@ -22,10 +22,10 @@ session_start();
     <section class="page-title" style="background-image:url(images/background/6.jpg)">
     	<div class="auto-container">
         	<ul class="page-breadcrumb">
-            	<li><a href="index.html">Home</a></li>
-                <li>Power and Energy</li>
+            	<li><a href="index.php">GEOBTP</a></li>
+                <li>Maitrise d'Oeuvre</li>
             </ul>
-        	<h1>Power and Energy</h1>
+        	<h1>Maitrise d'Oeuvre - Contrôles qualités - Expertise</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -44,127 +44,24 @@ session_start();
                                 <img src="images/resource/market-16.jpg" alt="" />
                             </div>
                             <div class="lower-content">
-                            	<h2>Power and Energy</h2>
+                            	<h2>MAITRISE D’OEUVRE – CONTROLES QUALITES - EXPERTISE</h2>
                                 <div class="text">
-                                	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatems accusantium doloremqu laudantiums ut, totams se aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae duis autems vell eums iriure dolors in hendrerit saepe eveniet  in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at seds eros sed et accumsan et iusto odio dignissim.</p>
-                                </div>
-                                
-                                <!--Markets Blocks-->
-                                <div class="market-blocks">
-                                    <div class="blocks-inner">
-                                        <div class="clearfix">
-                                            
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
-                                                <div class="block-inner">
-                                                    <h3>Generator Services</h3>
-                                                    <div class="icon-box">
-                                                        <span class="icon flaticon-generator"></span>
-                                                    </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
-                                                    <div class="plus-icon flaticon-plus-symbol"></div>
-                                                    <div class="block-overlay">
-                                                        <div class="overlay-inner">
-                                                            <h4>Generator Services</h4>
-                                                            <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
-                                                            </ul>
-                                                        </div>	
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
-                                                <div class="block-inner">
-                                                    <h3>Our Services & Solutions:</h3>
-                                                    <div class="icon-box">
-                                                        <span class="icon flaticon-conveyor"></span>
-                                                    </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
-                                                    <div class="plus-icon flaticon-plus-symbol"></div>
-                                                    <div class="block-overlay">
-                                                        <div class="overlay-inner">
-                                                            <h4>Our Services & Solutions:</h4>
-                                                            <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
-                                                            </ul>
-                                                        </div>	
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
-                                                <div class="block-inner">
-                                                    <h3>Light Tower Services</h3>
-                                                    <div class="icon-box">
-                                                        <span class="icon flaticon-transmission-tower"></span>
-                                                    </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
-                                                    <div class="plus-icon flaticon-plus-symbol"></div>
-                                                    <div class="block-overlay">
-                                                        <div class="overlay-inner">
-                                                            <h4>Light Tower Services</h4>
-                                                            <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
-                                                            </ul>
-                                                        </div>	
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
-                                                <div class="block-inner">
-                                                    <h3>Fuel System Services</h3>
-                                                    <div class="icon-box">
-                                                        <span class="icon flaticon-fuel-1"></span>
-                                                    </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
-                                                    <div class="plus-icon flaticon-plus-symbol"></div>
-                                                    <div class="block-overlay">
-                                                        <div class="overlay-inner">
-                                                            <h4>Fuel System Services</h4>
-                                                            <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
-                                                            </ul>
-                                                        </div>	
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
+                                	<p>La division Maîtrise d’œuvre-Contrôle Extérieur-Expertise assure un suivi complet des projets à prédominance géotechnique, depuis la phase initiale du projet jusqu'à la finalisation du DCE. Elle assure également la supervision et la gestion du chantier pendant la phase de travaux, en apportant un soutien technique au Maître d’œuvre dans le cadre des contrôles externes. De plus, elle réalise des diagnostics précis des pathologies et formule des recommandations pour la restauration. Enfin, elle excelle dans l'expertise des constructions, des ouvrages de génie civil et des chaussées.</p>
                                 </div>
                                     
                                 <!--Stats Box-->
                                 <div class="stats-box">
                                     <div class="stats-inner">
-                                        <h3>Service Stats & Charts</h3>
                                         <div class="row clearfix">
-                                        	<div class="column col-md-6 col-sm-12 col-xs-12">
-                                            	<div class="text">This requires promoting good managment of natural resources & respect for the environment, & increasingly concern for the psychological  all concerned in the food production.</div>
+                                        	<div class="column col-md-6 col-sm-12 col-xs-12">                                                
+                                                <h3>Contrôle qualité</h3>
+                                            	<div class="text">La réalisation d'un dossier complet, de la phase initiale du projet jusqu'à la finalisation du DCE, implique la rédaction minutieuse des CCTP et la conception détaillée des plans.</div>
                                                 <ul class="list-style-five">
-                                                	<li>Production technques ( irrigation managment, recommended nitrogen inputs)</li>
-                                                    <li>Improving agricultural productivity in terms of quantity and quality.</li>
-                                                    <li>Minimizing the effects  pests (weeds, insects, pathogens, nematodes) on animal production or crop systems.</li>
+                                                <h3>Diagnostics Structures</h3>
+                                            	<div class="text">Vérification du comportement des ouvrages pour la réception, mesure de flèches sous charge.</div>
+                                                <ul class="list-style-five">
+                                                	<li>Auscultation dynamique des bétons,</li>
+                                                    <li>Recherche d’armatures par auscultation magnétique,</li>
                                                 </ul>
                                             </div>
                                             <div class="column col-md-6 col-sm-12 col-xs-12">
@@ -176,52 +73,46 @@ session_start();
                                 
                                 <!--Accordian Boxed-->
                                 <div class="accordian-boxed">
-                                	<h3>Service Benefits</h3>
-                                    
+                                	<h3>LES MOYENS</h3>
                                     <!--Accordian Box Two-->
                                     <ul class="accordion-box style-two">
                                         
                                         <!--Block-->
                                         <li class="accordion block">
-                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>Electronic Materials</div>
+                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>LE PERSONNEL D’ENCADREMENT</div>
                                             <div class="acc-content">
                                                 <div class="content">
-                                                    <div class="text">Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master builder of human born and I will give you a complete account of the system.</div>
+                                                    <div class="text">
+                                                        <p>Le Directeur du laboratoire, Ingénieur des Travaux Publics, assure la gestion administrative, technique et financière du laboratoire en harmonie avec les objectifs de la société définie par les associés et conformément à la délégation de pouvoir reçue.</p> 
+                                                        <p>Chaque division est placée sous la responsabilité d’un ingénieur chef de division qui assure la gestion de sa division.</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                 
                                         <!--Block-->
                                         <li class="accordion block active-block">
-                                            <div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>Power Systems</div>
+                                            <div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>LES TECHNICIENS</div>
                                             <div class="acc-content current">
                                                 <div class="content">
-                                                    <div class="text">Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master builder of human born and I will give you a complete account of the system.</div>
+                                                    <div class="text">
+                                                        <p>Les techniciens de laboratoire et essais in situ assurent la réalisation des essais et intervention terrain de la division 2 ainsi qu’une partie de l’interprétation, les techniciens de chantier assurent la réalisation des essais et sondages des divisions 1 et 3. <br>
+                                                            Chaque technicien possède un niveau de qualification défini par un accord d’entreprise qui définit la hiérarchie et les taches à réaliser, un tableau de qualification validant les compétences pour chaque technicien
+                                                            Une formation continue est instaurée au laboratoire pour assurer la qualité des essais et permettre l’évolution des qualifications. <br>
+                                                            Nos techniciens disposent des équipements de protection Individuel (E.P.I) ou collectifs correspondant aux exigences de sécurité en vigueur dans notre activité.</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </li>
-                                        
-                                        <!--Block-->
-                                        <li class="accordion block">
-                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>Auto parts</div>
-                                            <div class="acc-content">
-                                                <div class="content">
-                                                    <div class="text">Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master builder of human born and I will give you a complete account of the system.</div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        
-                                    </ul>
-                                    
+                                        </li>                                        
+                                    </ul>                                    
                                 </div>
                                 
-                                <!--Market Steps-->
+                                <!--Market Steps
                                 <div class="market-steps">
                                 	<h3>Your Next Steps</h3>
                                     <div class="steps-inner">
                                     	<div class="clearfix">
                                         	
-                                            <!--Step Block-->
                                             <div class="step-block col-md-6 col-sm-6 col-xs-12">
                                             	<div class="inner">
                                                 	<div class="icon-box">
@@ -231,7 +122,6 @@ session_start();
                                                 </div>
                                             </div>
                                             
-                                            <!--Step Block-->
                                             <div class="step-block col-md-6 col-sm-6 col-xs-12">
                                             	<div class="inner">
                                                 	<div class="icon-box">
@@ -243,7 +133,7 @@ session_start();
                                             
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 
                             </div>
                         </div>
@@ -252,90 +142,31 @@ session_start();
                 
                 <!--Sidebar Side-->
                 <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                	<aside class="sidebar market-sidebar">
-						
+                	<aside class="sidebar market-sidebar">						
                         <div class="sidebar-title">
-                        	<h2>Market Sectors</h2>
+                        	
                         </div>
                         <!--Blog Category Widget-->
                         <div class="sidebar-widget sidebar-blog-category">
                             <ul class="blog-cat">
-                                <li><a href="#">Automative Manufacturing</a></li>
-                                <li><a href="#">Industrial Construction</a></li>
-                                <li><a href="#">Oil & Gas Conservation</a></li>
-                                <li class="active"><a href="#">Marine Transporation</a></li>
-                                <li><a href="#">Material Engineering</a></li>
-                                <li><a href="#">Power and Energy</a></li>
+                                <li><a href="#">Maitrise d'oeuvre</a></li>
+                                <li><a href="#">Contrôles Qualites</a></li>
+                                <li><a href="#">Expertise</a></li>
                             </ul>
                         </div>
                         
                         <!-- Sidebar brochure-->
                         <div class="sidebar-widget sidebar-brochure">
                         	<div class="sidebar-title">
-                                <h2>Our Brochures</h2>
+                                <h2>Documents</h2>
                             </div>
-                        	<a class="brochure" href="#"><span class="icon flaticon-pdf"></span>Service Overview <span>Download.pdf</span></a>
-                            <a class="brochure" href="#"><span class="icon flaticon-word-file"></span>About Our Company <span>Download.doc</span></a>
+                        	<a class="brochure" href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023"><span class="icon flaticon-pdf"></span>Presentation GEOBTP <span>Télécharger le PDF</span></a>
+                            <a class="brochure" href="#"><span class="icon flaticon-word-file"></span>Certificat <span>Documents</span></a>
                         </div>
-                        
-                        <!-- Sidebar brochure-->
-                        <div class="sidebar-widget testimonial-widget">
-                        	<div class="sidebar-title">
-                                <h2>Testimonials</h2>
-                            </div>
-                            <div class="single-item-carousel owl-carousel owl-theme">
-                            	<div class="slide">
-                                    <div class="inner-widget">
-                                    	<div class="upper-box">
-                                            <div class="upper-inner">
-                                                <div class="image">
-                                                    <img src="images/resource/author-14.jpg" alt="" />
-                                                </div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="location">Newyork City</div>
-                                            </div>
-                                        </div>
-										<div class="text">Must explain too you how mistaken idea denoncing sed pleasure & praising pain was and we will give all actual human.</div>
-                                    </div>
-                                </div>
-                                
-                                <div class="slide">
-                                    <div class="inner-widget">
-                                    	<div class="upper-box">
-                                            <div class="upper-inner">
-                                                <div class="image">
-                                                    <img src="images/resource/author-14.jpg" alt="" />
-                                                </div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="location">Newyork City</div>
-                                            </div>
-                                        </div>
-										<div class="text">Must explain too you how mistaken idea denoncing sed pleasure & praising pain was and we will give all actual human.</div>
-                                    </div>
-                                </div>
-                                
-                                <div class="slide">
-                                    <div class="inner-widget">
-                                    	<div class="upper-box">
-                                            <div class="upper-inner">
-                                                <div class="image">
-                                                    <img src="images/resource/author-14.jpg" alt="" />
-                                                </div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="location">Newyork City</div>
-                                            </div>
-                                        </div>
-										<div class="text">Must explain too you how mistaken idea denoncing sed pleasure & praising pain was and we will give all actual human.</div>
-                                    </div>
-                                </div>
-							</div>
-                        </div>
-                        
                         <!--Request Quote-->
                         <div class="request-quote">
-                        	<a href="#">Request for Quote <span class="icon flaticon-right-arrow-1"></span></a>
-                        </div>
-                        
+                        	<a href="#">DEMANDE DE DEVIS<span class="icon flaticon-right-arrow-1"></span></a>
+                        </div>                        
                     </aside>
                 </div>
                 

@@ -19,13 +19,13 @@ session_start();
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/6.jpg)">
+    <section class="page-title" style="background-image:url(images/background/geotechniquebtp.jpg)">
     	<div class="auto-container">
         	<ul class="page-breadcrumb">
-            	<li><a href="index.html">Home</a></li>
-                <li>Power and Energy</li>
+            	<li><a href="index.php">GEOBTP</a></li>
+                <li>Géotechnique</li>
             </ul>
-        	<h1>Power and Energy</h1>
+        	<h1>Géotechnique</h1>
         </div>
     </section>
     <!--End Page Title-->
@@ -41,109 +41,61 @@ session_start();
                 	<div class="market-single">
 						<div class="inner-box">
                             <div class="image">
-                                <img src="images/resource/market-16.jpg" alt="" />
+                                <img src="images/resource/market-17.jpg" alt="" />
                             </div>
                             <div class="lower-content">
-                            	<h2>Power and Energy</h2>
+                            	<h2>Géotechnique</h2>
                                 <div class="text">
-                                	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatems accusantium doloremqu laudantiums ut, totams se aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae duis autems vell eums iriure dolors in hendrerit saepe eveniet  in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at seds eros sed et accumsan et iusto odio dignissim.</p>
+                                	<p>Chaque chantier, chaque aménagement, requiert une étude minutieuse pour garantir son harmonie avec le sol et son environnement, assurant ainsi sa durabilité. L'ingénierie géotechnique incarne cette nécessité, et depuis près de 7 ans, Geobtp s'est érigé en spécialiste incontesté en Côte d'Ivoire dans ce domaine.</p>
+                                    <p>GEOBTP a délibérément opté pour offrir à sa clientèle des prestations intégrales comprenant :</p>
                                 </div>
                                 
                                 <!--Markets Blocks-->
                                 <div class="market-blocks">
                                     <div class="blocks-inner">
-                                        <div class="clearfix">
+                                        <div class="">
                                             
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
+                                            <div class="market-block-five col-md-12 col-sm-12 col-xs-12">
                                                 <div class="block-inner">
-                                                    <h3>Generator Services</h3>
+                                                    <h3>Etudes de projet géotechnique</h3>
                                                     <div class="icon-box">
                                                         <span class="icon flaticon-generator"></span>
                                                     </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
+                                                    <div class="block-text">GEOBTP utilise une gamme de logiciels techniques comme CIVILAB pour dépouiller les essais et calculs géotechniques, FONPRO pour les fondations profondes, AUTOCAD pour les dessins techniques, et ARCVIEW pour les bases de données géographiques, assurant ainsi une approche complète et précise dans nos analyses et réalisations.</div>
                                                     <div class="plus-icon flaticon-plus-symbol"></div>
                                                     <div class="block-overlay">
                                                         <div class="overlay-inner">
-                                                            <h4>Generator Services</h4>
+                                                            <h4>LOGICIELS TECHNIQUES</h4>
                                                             <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
+                                                                <li>Civilab</li>
+                                                                <li>Fonpro</li>
+                                                                <li>Autocad</li>
+                                                                <li>Arview</li>
                                                             </ul>
                                                         </div>	
                                                     </div>
                                                 </div>
                                             </div>
                                             
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
+                                            
+                                            <div class="market-block-five col-md-12 col-sm-12 col-xs-12">
                                                 <div class="block-inner">
-                                                    <h3>Our Services & Solutions:</h3>
+                                                    <h3>MATERIELS</h3>
                                                     <div class="icon-box">
                                                         <span class="icon flaticon-conveyor"></span>
                                                     </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
+                                                    <div class="block-text">GEOBTP dispose d'équipements de pointe tels qu'une foreuse SOCOMAFOR 35, des pénétromètres lourds APAFOR 50 et TECOPSA SPT TEC 10, ainsi qu'un module d'essais pressiométriques CPV MENARD, garantissant des analyses approfondies et précises pour chaque projet."</div>
                                                     <div class="plus-icon flaticon-plus-symbol"></div>
                                                     <div class="block-overlay">
                                                         <div class="overlay-inner">
-                                                            <h4>Our Services & Solutions:</h4>
+                                                            <h4>Materiels</h4>
                                                             <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
-                                                            </ul>
-                                                        </div>	
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
-                                                <div class="block-inner">
-                                                    <h3>Light Tower Services</h3>
-                                                    <div class="icon-box">
-                                                        <span class="icon flaticon-transmission-tower"></span>
-                                                    </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
-                                                    <div class="plus-icon flaticon-plus-symbol"></div>
-                                                    <div class="block-overlay">
-                                                        <div class="overlay-inner">
-                                                            <h4>Light Tower Services</h4>
-                                                            <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
-                                                            </ul>
-                                                        </div>	
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!--Market Block-->
-                                            <div class="market-block-five col-md-6 col-sm-6 col-xs-12">
-                                                <div class="block-inner">
-                                                    <h3>Fuel System Services</h3>
-                                                    <div class="icon-box">
-                                                        <span class="icon flaticon-fuel-1"></span>
-                                                    </div>
-                                                    <div class="block-text">How all this mistaken idea denouncing pleasure and praising pain was born & will complete account of the system.</div>
-                                                    <div class="plus-icon flaticon-plus-symbol"></div>
-                                                    <div class="block-overlay">
-                                                        <div class="overlay-inner">
-                                                            <h4>Fuel System Services</h4>
-                                                            <ul class="list-style-four">
-                                                                <li>Maintenance</li>
-                                                                <li>Repairs</li>
-                                                                <li>Rebuilding</li>
-                                                                <li>Sales</li>
-                                                                <li>So Much More...</li>
+                                                                <li>Un pénétromètre lourd manuel</li>
+                                                                <li>Une foreuse 50 ch SOCOMAFOR 35</li>
+                                                                <li>Un pénétromètre lourd APAFOR 50</li>
+                                                                <li>Foreuse MASSENZA MI3 (en Cours)</li>
+                                                                <li>Un pénétromètre lourd APAFOR 100</li>
+                                                                <li>Un pénétromètre lourd TECOPSA SPT TEC 10</li>
                                                             </ul>
                                                         </div>	
                                                     </div>
@@ -154,10 +106,10 @@ session_start();
                                     </div>
                                 </div>
                                     
-                                <!--Stats Box-->
+                                <!--Stats Box
                                 <div class="stats-box">
                                     <div class="stats-inner">
-                                        <h3>Service Stats & Charts</h3>
+                                        <h3>LES LOGICIELS TECHNIQUES</h3>
                                         <div class="row clearfix">
                                         	<div class="column col-md-6 col-sm-12 col-xs-12">
                                             	<div class="text">This requires promoting good managment of natural resources & respect for the environment, & increasingly concern for the psychological  all concerned in the food production.</div>
@@ -172,79 +124,91 @@ session_start();
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 
                                 <!--Accordian Boxed-->
                                 <div class="accordian-boxed">
-                                	<h3>Service Benefits</h3>
+                                	<h3>LA DIVISION : GEOTECHNIQUE</h3>
                                     
                                     <!--Accordian Box Two-->
                                     <ul class="accordion-box style-two">
                                         
                                         <!--Block-->
                                         <li class="accordion block">
-                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>Electronic Materials</div>
+                                            <div class="acc-btn">
+                                                <div class="icon-outer">
+                                                    <span class="icon icon-plus flaticon-arrow-pointing-to-right"></span>
+                                                </div>
+                                                Exécution de sondages, Essais et mesures géotechniques
+                                            </div>
                                             <div class="acc-content">
                                                 <div class="content">
-                                                    <div class="text">Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master builder of human born and I will give you a complete account of the system.</div>
+                                                    <div class="text">
+                                                        <h3>Essais in situ</h3>
+                                                        <ul>
+                                                            <li>- Suivi piézométrique,</li>
+                                                            <li>- Essais de perméabilité,</li>
+                                                            <li>- Essais pressiométriques,</li>
+                                                            <li>- Prélèvements intacts APM,</li>
+                                                            <li>- Forage diamètre 50 à 200 mm,</li>
+                                                            <li>- Sondages carottés diamètre 50 à 150 mm,</li>
+                                                            <li>- Sondages au pénétromètre dynamique et statique,</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                 
                                         <!--Block-->
                                         <li class="accordion block active-block">
-                                            <div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>Power Systems</div>
+                                            <div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>MISSIONS G2 & G3 Etudes de faisabilité
+                                            géotechnique et des ouvrages géotechniques avec ou sans redimensionnement</div>
                                             <div class="acc-content current">
                                                 <div class="content">
-                                                    <div class="text">Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master builder of human born and I will give you a complete account of the system.</div>
+                                                    <div class="text">                                                        
+                                                    <h3>Etudes et dimensionnement</h3>
+                                                        <ul>
+                                                            <li>- Terrassements,</li>
+                                                            <li>- Ouvrages de soutènement.</li>
+                                                            <li>- Remblais sur sol compressible,</li>
+                                                            <li>- Ouvrages maritimes (digue, quai…),</li>
+                                                            <li>- Confortement de talus et de pente,</li>
+                                                            <li>- Fondations de bâtiment et ouvrages d’art, Fondations superficielles, pieux,</li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                                         
                                         <!--Block-->
                                         <li class="accordion block">
-                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>Auto parts</div>
+                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>MISSIONS G4 : Suivis géotechniques d’exécution</div>
                                             <div class="acc-content">
                                                 <div class="content">
-                                                    <div class="text">Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master builder of human born and I will give you a complete account of the system.</div>
+                                                    <div class="text">- Idem ouvrages précédents, dans le cadre de missions de maîtrise d’oeuvre ou de contrôles extérieurs.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         
-                                    </ul>
-                                    
-                                </div>
-                                
-                                <!--Market Steps-->
-                                <div class="market-steps">
-                                	<h3>Your Next Steps</h3>
-                                    <div class="steps-inner">
-                                    	<div class="clearfix">
-                                        	
-                                            <!--Step Block-->
-                                            <div class="step-block col-md-6 col-sm-6 col-xs-12">
-                                            	<div class="inner">
-                                                	<div class="icon-box">
-                                                    	<span class="icon flaticon-square"></span>
+                                        <!--Block-->
+                                        <li class="accordion block">
+                                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-arrow-pointing-to-right"></span></div>MISSIONS G5 : Diagnostics géotechniques avant, pendant et après construction d’un ouvrage avec ou sans sinistre</div>
+                                            <div class="acc-content">
+                                                <div class="content">
+                                                    <div class="text">
+                                                        <ul>
+                                                            <li>- Visite de réception,</li>
+                                                            <li>- Avis sur projet de terrassement,</li>
+                                                            <li>- Instrumentations diverses (piézomètre, …).</li>
+                                                            <li>- Visites de talus avant ou après terrassement,</li>
+                                                            <li>- Expertise sur ouvrages géotechniques divers,</li>
+                                                        </ul>
                                                     </div>
-                                                    <div class="step-text">For more information or to recieve a FREE quote, proposal, consultation, or bid <a href="#">- CLICK HERE</a></div>
                                                 </div>
                                             </div>
-                                            
-                                            <!--Step Block-->
-                                            <div class="step-block col-md-6 col-sm-6 col-xs-12">
-                                            	<div class="inner">
-                                                	<div class="icon-box">
-                                                    	<span class="icon flaticon-exclamation"></span>
-                                                    </div>
-                                                    <div class="step-text">For safety information, training, education, seminars, & more information <a href="#">- CLICK HERE</a></div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
+                                        </li>                                        
+                                    </ul>                                    
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -255,30 +219,32 @@ session_start();
                 	<aside class="sidebar market-sidebar">
 						
                         <div class="sidebar-title">
-                        	<h2>Market Sectors</h2>
+                        	<h2>Moyens matériels de l'activité géotechnique</h2>
                         </div>
                         <!--Blog Category Widget-->
                         <div class="sidebar-widget sidebar-blog-category">
                             <ul class="blog-cat">
-                                <li><a href="#">Automative Manufacturing</a></li>
-                                <li><a href="#">Industrial Construction</a></li>
-                                <li><a href="#">Oil & Gas Conservation</a></li>
-                                <li class="active"><a href="#">Marine Transporation</a></li>
-                                <li><a href="#">Material Engineering</a></li>
-                                <li><a href="#">Power and Energy</a></li>
+                                <li><a href="#">Logiciels</a></li>
+                                <li><a href="#">Ateliers de sondage</a></li>
+                                <li><a href="#">Mécanique des roches</a></li>
+                                <li><a href="#">Laboratoires d’essais</a></li>
+                                <li><a href="#">Logiciels de calculs d’ouvrage</a></li>
+                                <li><a href="#">Logiciels de traitement de données</li>
+                                <li><a href="#">Logiciels de calculs géotechniques</a></li>
+                                <li><a href="#">Représentation graphique des données</a></li>
+                                <li><a href="#">Stabilité des fronts rocheu</a></li>
                             </ul>
                         </div>
-                        
                         <!-- Sidebar brochure-->
                         <div class="sidebar-widget sidebar-brochure">
                         	<div class="sidebar-title">
-                                <h2>Our Brochures</h2>
+                                <h2>Documents</h2>
                             </div>
-                        	<a class="brochure" href="#"><span class="icon flaticon-pdf"></span>Service Overview <span>Download.pdf</span></a>
-                            <a class="brochure" href="#"><span class="icon flaticon-word-file"></span>About Our Company <span>Download.doc</span></a>
+                        	<a class="brochure" href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023"><span class="icon flaticon-pdf"></span>Presentation GEOBTP <span>Télécharger le PDF</span></a>
+                            <a class="brochure" href="certificats.php"><span class="icon flaticon-word-file"></span>Certificat <span>Documents</span></a>
                         </div>
                         
-                        <!-- Sidebar brochure-->
+                        <!-- Sidebar brochure
                         <div class="sidebar-widget testimonial-widget">
                         	<div class="sidebar-title">
                                 <h2>Testimonials</h2>
@@ -329,11 +295,11 @@ session_start();
                                     </div>
                                 </div>
 							</div>
-                        </div>
+                        </div>-->
+                        <!--Market Steps-->
                         
-                        <!--Request Quote-->
                         <div class="request-quote">
-                        	<a href="#">Request for Quote <span class="icon flaticon-right-arrow-1"></span></a>
+                        	<a href="#">DEMANDE DE DEVIS<span class="icon flaticon-right-arrow-1"></span></a>
                         </div>
                         
                     </aside>

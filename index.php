@@ -10,10 +10,8 @@ session_start();
     
 <body>
 
-<div class="page-wrapper">
- 	
-    <!-- Preloader -->    
- 	
+<div class="page-wrapper"> 	
+    <!-- Preloader -->     	
     <!-- Main Header / Header Style Two-->
     <?php include 'header.php';?>
     <!--End Main Header -->
@@ -410,8 +408,7 @@ session_start();
                             	<div class="inner-box">
                                     <h3>GEOBTP</h3>
                                     <div class="designation">LABORATOIRE GEOTECHNIQUE</div>
-                                    <div class="text">Bienvenue chez GEOBTP, votre partenaire de confiance pour les études géotechniques, le contrôle des travaux BTP et la supervision de projets de construction.</div>
-                                    <a href="#" class="read">Continuer à lire <span class="icon flaticon-right-arrow-1"></span></a>
+                                    <div class="text">GEOBTP utilise une gamme de logiciels techniques comme CIVILAB pour dépouiller les essais et calculs géotechniques, FONPRO pour les fondations profondes, AUTOCAD pour les dessins techniques, et ARCVIEW pour les bases de données géographiques, assurant ainsi une approche complète et précise dans nos analyses et réalisations.</div>
                                 </div>
                             </div>
                             

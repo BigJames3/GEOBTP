@@ -57,8 +57,8 @@
                             	<h2>Our Materials</h2>
                             </div>
                             <ul class="list-style-two">
-                            	<li><span class="icon flaticon-doc"></span><a href="#">Politique qualité</a>Year 2017-18</li>
-                                <li><span class="icon flaticon-doc"></span><a href="#">Catalogue de presentation</a>For Constructors</li>
+                            	<li><span class="icon flaticon-doc"></span><a href="#">Politique qualité</a>Année 2023</li>
+                                <li><span class="icon flaticon-doc"></span><a href="#">Catalogue de presentation</a>Pour les constructeurs</li>
                                 <!--<li><span class="icon flaticon-pdf"></span><a href="#">Company Growth</a>In Last 3 Years</li>-->
                             </ul>
                         </div>
