@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "John Doe" );
-define( "RECIPIENT_EMAIL", "youremail@mail.com" );
+define( "RECIPIENT_EMAIL", "traorejames34@gmail.com" );
 
 
 // Read the form values
@@ -20,12 +20,15 @@ if ( $sendername && $senderEmail && $senderSubject && $message) {
   $success = mail( $recipient, $headers, $msgBody );
 
   //Set Location After Successsfull Submission
-  header('Location: contact.html?message=Successfull');
+  //header('Location: contact.php?message=Successfull');
+  $messagee = "Alerte : Erreur de connexion !";
+header("Location: contact.php?message=" . urlencode($messagee));
+exit();
 }
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: index.html?message=Failed');	
+  	header('Location: index.php?message=Failed');	
 }
 
 ?>

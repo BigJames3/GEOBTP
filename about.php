@@ -22,9 +22,9 @@ session_start();
     	<div class="auto-container">
         	<ul class="page-breadcrumb">
             	<li><a href="index.html">Home</a></li>
-                <li>À Propos</li>
+                <li>À propos de nous</li>
             </ul>
-        	<h1>À Propos</h1>
+        	<h1>À propos de nous</h1>
         </div>
     </section>
     <!--End Page Title-->

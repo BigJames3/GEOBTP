@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+if(isset($_GET['message'])) {
+    $message = $_GET['message'];
+    echo "<script>alert('" . $message . "');</script>";
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,32 +23,16 @@ session_start();
     <!--End Main Header -->
     
     <!--Location Section-->
-    <section class="location-section" style="background-image:url(images/background/pattern-1.png)">
+    <section class="location-section" style="background-image:url(images/background/pattern-1.png);padding: 20px 0px 20px;">
     	<div class="auto-container">
         	<ul class="page-breadcrumb">
-            	<li><a href="index.html">Home</a></li>
-                <li>About Us</li>
+            	<li><a href="index.html">GEOBTP</a></li>
+                <li>Contact</li>
             </ul>
         	<div class="sec-title centered light">
-            	<h2>Visit Our Location</h2>
+            	<h2>VISITEZ NOTRE EMPLACEMENT</h2>
                 <div class="separator"></div>
             </div>
-            
-            <!--Map Outer-->
-            <div class="map-outer">
-                <!--Map Canvas-->
-                <div class="map-canvas"
-                    data-zoom="12"
-                    data-lat="-37.817085"
-                    data-lng="144.955631"
-                    data-type="roadmap"
-                    data-hue="#ffc400"
-                    data-title="Envato"
-                    data-icon-path="images/icons/map-marker.png"
-                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-                </div>
-            </div>
-            
         </div>
     </section>
     <!--End Page Title-->
@@ -55,10 +44,10 @@ session_start();
             <div class="sec-title">
             	<div class="clearfix">
                 	<div class="pull-left">
-                    	<h2>Quick Contact</h2>
+                    	<h2>CONTACT</h2>
                         <div class="separator"></div>
                     </div>
-                    <div class="text">You have questions? Dont hesitate to contact us, Our supportteam here to <br> help you by 24*7.</div>
+                    <div class="text">Vous avez des questions ? N'hésitez pas à nous contacter <br></div>
                 </div>
             </div>
         
@@ -70,9 +59,9 @@ session_start();
                     	<div class="inner-column">
                         	<div class="upper-box">
                             	<ul class="list-style-three">
-                                	<li><span class="icon flaticon-technology-2"></span><strong>Call Us: </strong>+321 4567 89 012 & 345</li>
-                                    <li><span class="icon flaticon-envelope-1"></span><strong>Mail Us: </strong>Supportteam@Metroindustry.com</li>
-                                    <li><span class="icon flaticon-time-1"></span><strong>Office Hrs: </strong>Monday - Satday: 9.00am to 5.00pm</li>
+                                	<li><span class="icon flaticon-technology-2"></span><strong>Appelez-nous : </strong>+225 27 22 46 52 72</li>
+                                    <li><span class="icon flaticon-envelope-1"></span><strong>Envoyez-nous un courrier: </strong>infos@geobtp.ci</li>
+                                    <li><span class="icon flaticon-time-1"></span><strong>Heures de bureau: </strong>Lundi - Vendredi : 8h00 à 17h30</li>
                                 </ul>
                             </div>
                             <div class="lower-box">
@@ -80,9 +69,9 @@ session_start();
                                 	<div class="image">
                                     	<img src="images/resource/author-7.jpg" alt="" />
                                     </div>
-                                    <h3>Jenifer Hearly</h3>
-                                    <div class="designation">Manager</div>
-                                    <div class="emailed">Jenifer@Metroindustry.com</div>
+                                    <h3>Marlène</h3>
+                                    <div class="designation">Secrétaire</div>
+                                    <div class="emailed">larysar@geobtp.ci</div>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +107,7 @@ session_start();
                                         </div>
                                         
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                            <button class="theme-btn submit-btn" type="submit" name="submit-form">Submit Now <span class="icon flaticon-right-arrow-1"></span></button>
+                                            <button class="theme-btn submit-btn" type="submit" name="submit-form">SOUMETTRE MAINTENANT <span class="icon flaticon-right-arrow-1"></span></button>
                                         </div>
                                         
                                     </div>
@@ -159,8 +148,6 @@ session_start();
 <script src="js/validate.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/script.js"></script>
-<!--Google Map APi Key-->
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyBKS14AnP3HCIVlUpPKtGp7CbYuMtcXE2o"></script>
 <script src="js/map-script.js"></script>
 <!--End Google Map APi-->
 </body>
