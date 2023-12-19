@@ -17,7 +17,7 @@
         if ($count == 1) {
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-            header("location: index.php"); // Redirection après la connexion
+            header("location: accueil_page_des_rapports.php"); // Redirection après la connexion
         } else {
             $error = "Identifiants invalides";
         }
@@ -41,18 +41,17 @@
     <?php include 'header.php';?>
     <!--End Main Header -->
     
-    <!--Page Title-->
-    <section class="page-title shop-title" style="background-image:url(images/background/14.jpg)">
-    	<div class="auto-container">
-        	<ul class="page-breadcrumb">
-            	<li><a href="index.html">Home</a></li>
-                <li>My Account</li>
-            </ul>
-        	<h1>My Account</h1>
+	<!--Page Title-->
+    <section class="page-title shop-title" style="background-image:url(images/background/14.jpg);padding: 20px 0px 20px;">
+        <div class="auto-container">
+            <ul class="page-breadcrumb">
+                <li><a href="index.html">GEOBTP</a></li>
+                <li>Connexion</li>
+            </ul>            
+        	<h1 style="margin-top: 5px;color:#F0FA00">CONNEXION</h1>
         </div>
     </section>
     <!--End Page Title-->
-	
     <!--Register Section-->
     <section class="register-section">
         <div class="auto-container">

@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-<title>The Metron - Industry and Factory HTML Template | Homepage Style Two</title>
+        <title>GEOBTP | ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS</title>
         <?php include 'head.php';?>
     </head>
     
@@ -82,7 +82,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<a href="about.html" class="know_more"><span class="icon flaticon-right-arrow-1"></span> Know More About Us</a>
+                    	<!--<a href="about.html" class="know_more"><span class="icon flaticon-right-arrow-1"></span>En savoir plus sur nous</a>-->
                     </div>
                     
                     </li>
@@ -147,7 +147,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<a href="about.html" class="know_more"><span class="icon flaticon-right-arrow-1"></span> Know More About Us</a>
+                    	<!--<a href="about.html" class="know_more"><span class="icon flaticon-right-arrow-1"></span>En savoir plus sur nous</a>-->
                     </div>
                     
                     </li>
@@ -212,11 +212,9 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<a href="about.html" class="know_more"><span class="icon flaticon-right-arrow-1"></span> Know More About Us</a>
-                    </div>
-                    
-                    </li>
-                    
+                    	<!--<a href="about.html" class="know_more"><span class="icon flaticon-right-arrow-1"></span>En savoir plus sur nous</a>-->
+                    </div>                    
+                    </li>                    
                 </ul>
             </div>
         </div>
@@ -668,7 +666,7 @@ session_start();
     <section class="news-section-two">
     	<div class="auto-container">
         	<div class="sec-title centered">
-            	<h2>Latest From Blog</h2>
+            	<h2>DERNIÈRES DU BLOG</h2>
                 <div class="separator"></div>
             </div>
             <div class="row clearfix">
@@ -684,7 +682,7 @@ session_start();
                             <div class="title">Post Info</div>
                             <div class="post-date">By Fernando, On 13th August 2017</div>
                             <div class="text">Great explorer of the truth, that master builder of human happiness...</div>
-                            <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                            <!--<a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
                         </div>
                     </div>
                 </div>
@@ -700,7 +698,7 @@ session_start();
                             <div class="title">Post Info</div>
                             <div class="post-date">By Richardson, On 05th July 2017</div>
                             <div class="text">To take a trivial example, which of us ever undertakes laborious physical...</div>
-                            <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                            <!--<a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
                         </div>
                     </div>
                 </div>
@@ -716,7 +714,7 @@ session_start();
                             <div class="title">Post Info</div>
                             <div class="post-date">By Venanda, On 21st October 2017</div>
                             <div class="text">Rationally encounter consequences seds ut that are extremely painful...</div>
-                            <a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                            <!--<a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
                         </div>
                     </div>
                 </div>
@@ -780,7 +778,7 @@ session_start();
     
 </div>
 <!--End pagewrapper-->
-
+<?php include 'script.php';?>
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 

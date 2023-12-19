@@ -11,6 +11,4 @@
         echo "Erreur de connexion : " . $e->getMessage();
         die(); // Arrêter l'exécution en cas d'erreur de connexion
     }
-
-
 ?>

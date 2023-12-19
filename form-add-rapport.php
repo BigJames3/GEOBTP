@@ -57,31 +57,31 @@ require_once('session.php');
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <div class="field-label">ENTREPRISE <sup>*</sup></div>
-                                    <input type="text" name="entreprise" value="" placeholder="Nom de l'entreprise" required>
+                                    <input type="text" name="entreprise" value="" placeholder="Nom de l'entreprise" style='text-transform:uppercase' required>
                                 </div>
                                 
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <div class="field-label">Titre de rapport <sup>*</sup></div>
-                                    <input type="text" name="titre_rapport" value="" placeholder="" required>
+                                    <input type="text" name="titre_rapport" value="" style='text-transform:uppercase' required>
                                 </div>
                                 
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <div class="field-label">Abreviation du titre de rapport <sup>*</sup></div>
-                                    <input type="text" name="abreviation" value="" placeholder="Example: " required>
+                                    <input type="text" name="abreviation" value="" placeholder="Example: " style='text-transform:uppercase' required>
                                 </div>
                                 
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <div class="field-label">Lieu des traveaux <sup>*</sup></div>
-                                    <input type="text" name="lieux_des_traveaux" value="" placeholder="" required>
+                                    <input type="text" name="lieux_des_traveaux" value="" placeholder="" style='text-transform:uppercase' required>
                                 </div>
 
                                 <!--Form Group-->
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <div class="field-label">Nom du correspondant <sup>*</sup></div>
-                                    <input type="text" name="correspondents_name" value="" placeholder="" required>
+                                    <input type="text" name="correspondents_name" value="" placeholder="" style='text-transform:uppercase' required>
                                 </div>
                                 
                                 <!--Form Group-->

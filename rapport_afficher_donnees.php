@@ -25,13 +25,8 @@ if (isset($_GET['id'])) {
             $opperation = $donnees['titre_rapport'];
             $coderapport = $donnees['code1'];
             $date = $donnees['date_enregistrement'];
+            $lieu = $donnees['lieux_des_traveaux'];
             $code = $donnees['code2'];
-        //echo "<p>ID : " . $donnees['id'] . "</p>"; 
-        //Affichage de l'ID pour vérification
-        //echo "<p>Nom : " . $donnees['entreprise'] . "</p>";
-        //echo "<p>Email : " . $donnees['adresse_mail'] . "</p>";
-        //Afficher d'autres champs...
-        //Afficher d'autres champs...
     } else {
         echo "Aucune donnée trouvée pour cet ID.";
     }
@@ -84,24 +79,30 @@ if (isset($_GET['id'])) {
                                                     <div class="column col-12 col-sm-6 col-md-6 col-lg-6">
                                                         <span style="color: white;">CODE RAPPORT</span>
                                                         <h4><strong>RAP N°: <?php echo $coderapport; ?></strong></h4>
+                                                    </div>                                               
+                                                    <div class="column col-12 col-sm-6 col-md-6 col-lg-6">
+                                                        <span style="color: white;">LIEU DES TRAVEAUX</span>
+                                                        <h4><strong><?php echo $lieu; ?></strong></h4>
                                                     </div>
+                                                </div><br>
+                                                <div class="row clearfix">                                                    
                                                     <div class="column col-12 col-sm-6 col-md-6 col-lg-6">
                                                         <span style="color: white;">DATE EMISSION</span>
                                                         <h4><strong><?php echo $date; ?></strong></h4>
                                                     </div>
-                                                </div><br>
-                                                <?php  
-                                                    if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-                                                       //ne rien n'afficher
-                                                    }else{
-                                                        echo <<<HTML
-                                                        <div class="rapport"> 
-                                                                <span style="color: white;">NUMERO D'AUTHENTIFICATION</span> <br>
-                                                                <h3><strong> $code </strong></h3>
-                                                            </div>
-                                                        HTML;
-                                                    }
-                                                 ?>
+                                                    <?php  
+                                                        if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+                                                        //ne rien n'afficher
+                                                        }else{
+                                                            echo <<<HTML
+                                                            <div class="rapport"> 
+                                                                    <span style="color: white;">NUMERO D'AUTHENTIFICATION</span> <br>
+                                                                    <h4><strong> $code </strong></h4>
+                                                                </div>
+                                                            HTML;
+                                                        }
+                                                    ?>    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

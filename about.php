@@ -18,13 +18,13 @@ session_start();
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/6.jpg)">
+    <section class="page-title" style="background-image:url(images/background/beobtp05.png)">
     	<div class="auto-container">
         	<ul class="page-breadcrumb">
             	<li><a href="index.html">Home</a></li>
-                <li>About Us</li>
+                <li>À Propos</li>
             </ul>
-        	<h1>About Us</h1>
+        	<h1>À Propos</h1>
         </div>
     </section>
     <!--End Page Title-->
