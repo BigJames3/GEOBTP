@@ -10,11 +10,11 @@
                         <div class="sec-title">
                         	<div class="clearfix">
                             	<div class="pull-left">
-                                	<h2>Get a Quote</h2>
+                                	<h2>OBTENEZ UN DEVIS</h2>
                                     <div class="separator centered"></div>
                                 </div>
                                 <div class="pull-left">
-                                	<div class="text">Get a free quote for your industrial or engineering business solutions, We are here 24/7.</div>
+                                	<div class="text">Obtenez un devis gratuit pour vos solutions industrielles ou d'ingénierie, nous sommes là 24/7.</div>
                                 </div>
                             </div>
                         </div>
@@ -22,16 +22,16 @@
                         <!-- Quote Form / Style Two-->
                         <div class="quote-form style-two">
                             <!--Shipping Form-->
-                            <form method="post" action="contact.html">
+                            <form method="post" action="contactform.php">
                                 <div class="row clearfix">
                                 	<div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="text" placeholder="Your Name" required>
+                                        <input type="text" name="nom" placeholder="Nom & prenom" required>
                                     </div>
                                     <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="text" placeholder="Company Name" required>
+                                        <input type="text" name="sociéte" placeholder="Company" required>
                                     </div>
                                     <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="text" placeholder="Phone" required>
+                                        <input type="text" name="text" placeholder="Téléphone" required>
                                     </div>
                                     <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                         <select class="custom-select-box">

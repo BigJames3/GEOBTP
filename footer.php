@@ -56,7 +56,7 @@
                             </div>
                             <ul class="list-style-two">
                             	<li><span class="icon flaticon-doc"></span><a href="politique_qualite.php">Politique qualité</a>Année 2023</li>
-                                <li><span class="icon flaticon-doc"></span><a href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023">Catalogue de presentation</a>Pour les constructeurs</li>
+                                <li><span class="icon flaticon-doc"></span><a href="certificats.php">Certificat</a>ISO 9001</li>
                                 <!--<li><span class="icon flaticon-pdf"></span><a href="#">Company Growth</a>In Last 3 Years</li>-->
                             </ul>
                         </div>
@@ -67,7 +67,7 @@
         </div>
         <div class="footer-bottom style-two">
         	<div class="auto-container">
-                <div class="copyright">Copyright © 2017-2023 <a href="#"> GEOBTP </a> Theme by <a href="#">James.ia</a>Tous droits réservés.</div>
+                <div class="copyright">Copyright © 2017-<?php echo date("Y");?> <a href="#"> GEOBTP </a> Theme by <a href="#">James.ia</a>Tous droits réservés.</div>
             </div>
         </div>
     </footer>

@@ -84,7 +84,7 @@ session_start();
                                                     </div>
                                                     <div class="rapport"> 
                                                         <span style="color: white;">NUMERO D'AUTHENTIFICATION</span> <br>
-                                                        <h4><strong><?php echo $row["code2"]; ?> </strong></h4>
+                                                        <h4><strong style="text-transform: lowercase;"><?php echo $row["code2"]; ?> </strong></h4>
                                                     </div> 
                                                 </div>
                                             </div>
@@ -108,7 +108,7 @@ session_start();
                         <li><a href="index.html">GEOBTP</a></li>
                         <li>authentification des documents</li>
                     </ul>            
-                    <h1 style="margin-top: 5px;color:white; text-transform: none;font-size:35px;margin-top:12px;">Veuillez vérifier à nouveau <br> votre code d'authentification.</h1>
+                    <h1 style="margin-top: 5px;color:#a00505; text-transform: none;font-size:35px;margin-top:12px;">Veuillez vérifier à nouveau <br> votre code d'authentification.</h1>
                 </div>
             </section>
                 <?php

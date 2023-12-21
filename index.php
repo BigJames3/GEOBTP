@@ -4,10 +4,9 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GEOBTP | ETUDES GEOTECHNIQUE DU BATIMENT ET DES TRAVAUX PUBLICS</title>
+        <title>GEOBTP | ETUDES GEOTECHNIQUE DU B.T.P</title>
         <?php include 'head.php';?>
-    </head>
-    
+    </head>    
 <body>
 
 <div class="page-wrapper"> 	
@@ -285,19 +284,18 @@ session_start();
                 <div class="text">Fort de plus de 7 ans d'expérience dans les études géotechniques, le contrôle des travaux BTP et la supervision de projets de construction. 
                     Notre engagement ? Offrir des prestations de qualité dans une recherche constante de la satisfaction du maitre d’ouvrage et des bailleurs</div>
             </div>
-            <div class="row clearfix">
-            	
+            <div class="row clearfix">            	
                 <!--Market Block-->
                 <div class="market-block-two col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
-                        	<img src="images/resource/market-1.jpg" alt="" />
+                        	<img src="images/resource/TT-03.png" alt="" />
                             <div class="overlay-box">
-                            	<h2>GEOTECHNIQUE</h2>
+                            	<h2>GÉOTECHNIQUE</h2>
                                 <ul>
-                                    <li>LES LOGICIELS TECHNIQUES</li>
-                                    <li>LES MATERIELS</li>
+                                    <li>MATÉRIELS</li>
                                     <li>ESSAIS IN SITU</li>
+                                    <li>LOGICIELS TECHNIQUES</li>
                                 </ul>
                             </div>
                         </div>
@@ -305,7 +303,7 @@ session_start();
                         	<div class="content-inner">
                             	<div class="content">
                                 	<div class="text">La division possède des équipements ainsi que des logiciels dédiés à l'analyse et au traitement des données pour effectuer les tests majeurs d'identification et de comportement mécanique des sols et des roches.</div>
-                                    <a class="go" href="market-single.html">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                    <a class="go" href="service_geotechnique.php">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -316,7 +314,7 @@ session_start();
                 <div class="market-block-two col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
-                        	<img src="images/resource/market-2.jpg" alt="" />
+                        	<img src="images/resource/TT-04.png" alt="" />
                             <div class="overlay-box">
                             	<h2>MATERIAUX - ROUTES</h2>
                                 <ul>
@@ -331,7 +329,7 @@ session_start();
                         	<div class="content-inner">
                             	<div class="content">
                                 	<div class="text">La division Matériaux opère des études et des essais de laboratoire standards pour les analyses physiques et mécaniques, ainsi que des études et essais spécifiques pour les routes. Elle utilise également des instruments et des mesures sur site. En collaboration avec les divisions Géotechnique et Maîtrise d’œuvre, elle effectue</div>
-                                    <a class="go" href="market-single.html">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                    <a class="go" href="service-materiaux-routes.php">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -342,9 +340,9 @@ session_start();
                 <div class="market-block-two col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
-                        	<img src="images/resource/market-3.jpg" alt="" />
+                        	<img src="images/resource/TT-05.png" alt="" />
                             <div class="overlay-box">
-                            	<h2>MAITRISE D’OEUVRE - CONTROLE QUALITE - EXPERTISE</h2>
+                            	<h2>- MAITRISE D’OEUVRE <br> - CONTROLE QUALITE <br> - EXPERTISE</h2>
                                 <ul>
                                     <li>CONTROLES QUALITES</li>
                                     <li>MAITRISE D’OEUVRE</li>
@@ -356,7 +354,7 @@ session_start();
                         	<div class="content-inner">
                             	<div class="content">
                                 	<div class="text">La division Maîtrise d’œuvre-Contrôle Extérieur-Expertise assure le suivi complet des projets géotechniques, dirige les chantiers en phase de travaux et offre une assistance technique au Maître d’œuvre pour les contrôles extérieurs. Elle réalise également des diagnostics sur les pathologies, propose des recommandations pour les réparations et apporte son expertise sur les constructions, ouvrages de génie civil et chaussées.</div>
-                                    <a class="go" href="market-single.html">En savoir plus <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                    <a class="go" href="service-maitrise-oeuvre.php">En savoir plus <span class="icon flaticon-arrow-pointing-to-right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -367,16 +365,16 @@ session_start();
                 <div class="market-block-two col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
-                        	<img src="images/resource/market-4.jpg" alt="" />
+                        	<img src="images/resource/TT-06.png" alt="" />
                             <div class="overlay-box">
-                            	<h2>ANALYSE LOBORATOIRE ET ESSAIS IN SITU</h2>
+                            	<h2>ANALYSE LOBORATOIRE <br> ET ESSAIS IN SITU</h2>
                             </div>
                         </div>
                         <div class="content-overlay">
                         	<div class="content-inner">
                             	<div class="content">
                                 	<div class="text">Nous réalisons toutes les analyses laboratoires nécessaire à vos projets, pour connaitre la nature des sols que nous sondons, leur composition, compacité, mais également des essais spécifiques pour les voiries…</div>
-                                    <a class="go" href="market-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
+                                    <!--<a class="go" href="market-single.html">En savoir plus<span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
                                 </div>
                             </div>
                         </div>
@@ -399,7 +397,7 @@ session_start();
                     	<div class="quote-icon">
                         	<span class="icon flaticon-quotation"></span>
                         </div>
-                    	<div class="single-item-carousel owl-carousel owl-theme">
+                    	<div class=" owl-theme">
                         	
                             <!--Testimonial Block Two-->
                             <div class="testimonial-block-two">
@@ -409,49 +407,16 @@ session_start();
                                     <div class="text">GEOBTP utilise une gamme de logiciels techniques comme CIVILAB pour dépouiller les essais et calculs géotechniques, FONPRO pour les fondations profondes, AUTOCAD pour les dessins techniques, et ARCVIEW pour les bases de données géographiques, assurant ainsi une approche complète et précise dans nos analyses et réalisations.</div>
                                 </div>
                             </div>
-                            
-                            <!--Testimonial Block Two
-                            <div class="testimonial-block-two">
-                            	<div class="inner-box">
-                                	<div class="author">
-                                    	<img src="images/resource/author-3.jpg" alt="" />
-                                    </div>
-                                    <h3>Teena Venanda</h3>
-                                    <div class="designation">Newyork City</div>
-                                    <div class="text">Must explain you how mistaken our denouncing pleasure & praising pain was born we will give all expound human happiness pursue mistaken idea of denouncing pleasure & praising.</div>
-                                    <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                            	<div class="inner-box">
-                                	<div class="author">
-                                    	<img src="images/resource/author-3.jpg" alt="" />
-                                    </div>
-                                    <h3>Teena Venanda</h3>
-                                    <div class="designation">Newyork City</div>
-                                    <div class="text">Must explain you how mistaken our denouncing pleasure & praising pain was born we will give all expound human happiness pursue mistaken idea of denouncing pleasure & praising.</div>
-                                    <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                                </div>
-                            </div>-->
-                            
                         </div>
                     </div>
                 </div>
                 
                 <!--Content Column-->
                 <div class="content-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="sec-title">
-                        	<h2>CE QUE NOUS AVONS RÉALISÉ</h2>
-                            <div class="separator"></div>
+                	<div class="inner-column" style="padding: 15px 0px;">
+                        <div class="image">
+                            <img src="images/gallery/geobtp1014).jpeg" alt="" />
                         </div>
-                        <div class="bold-text">Strength & growth comes only through continuous effort.</div>
-                        <ul class="achived-list">
-                        	<li class="icon flaticon-engineer"></li>
-                            <li class="number">1635</li>
-                            <li><a href="#">Engineers & Workers</a></li>
-                        </ul>
-                        <div class="text">Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you sed a complete account of the system expound  know how to pursue pleasure .</div>
                     </div>
                 </div>
                 
@@ -471,30 +436,29 @@ session_start();
             <!--MixitUp Galery-->
             <div class="mixitup-gallery">
                 
-                <!--Filter-->
+                <!--Filter
                 <div class="filters clearfix">
                     <ul class="filter-tabs filter-btns clearfix">
-                        <li class="active filter" data-role="button" data-filter="all">View All</li>
-                        <li class="filter" data-role="button" data-filter=".engineer">Engineering</li>
-                        <li class="filter" data-role="button" data-filter=".agriculture">Agriculture</li>
-                        <li class="filter" data-role="button" data-filter=".construction">Construction</li>
-                        <li class="filter" data-role="button" data-filter=".power">Power & Energy</li>
+                        <li class="active filter" data-role="button" data-filter="all">Voir Tout</li>
+                        <li class="filter" data-role="button" data-filter=".OuvragesDart">Ouvrages d’art</li>
+                        <li class="filter" data-role="button" data-filter=".MaitrisedOeuvre">Maîtrise d’oeuvre,</li>
+                        <li class="filter" data-role="button" data-filter=".Batiments">Bâtiments</li>
+                        <li class="filter" data-role="button" data-filter=".power">Ouvrage industrielle</li>
                         <li class="filter" data-role="button" data-filter=".oil">Oil & Gas</li>
                     </ul>
-                </div>
+                </div>-->
                 
-                <div class="filter-list clearfix">
-                
-                    <!--Project Block Two-->
-                    <div class="project-block-two mix all engineer col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="filter-list clearfix">                
+                    <!--Project géotechnique Two OK-->
+                    <div class="project-block-two mix all power col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/geobtp012.jpg" alt="" />
+                            	<img src="images/gallery/geotbtptech.png" alt="" />
                             </div>
                             <div class="lower-box">
-                            	<h3>Boston Railway Station</h3>
-                                <div class="title">Construction</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                            	<h3>Ouvrages d’art – Etudes géotechniques</h3>
+                                <div class="title">Sondage pressiométrique et essai au pénétromètre dynamique</div>
+                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
                             </div>
                         </div>
                     </div>
@@ -503,146 +467,42 @@ session_start();
                     <div class="project-block-two mix all power col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/geobtp012.jpg" alt="" />
+                            	<img src="images/gallery/25.png" alt="" />
                             </div>
                             <div class="lower-box">
-                            	<h3>US Gas Company</h3>
-                                <div class="title">Oil & Gas</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/2.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">US Gas Company</a></h4>
-                                    <div class="title">Oil & Gas</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
+                            	<h3>Ouvrages d’art – Etudes géotechniques</h3>
+                                <div class="title">Sondage pressiométrique et essai au pénétromètre dynamique</div>
+                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
                             </div>
                         </div>
                     </div>
                     
-                    <!--Project Block Two-->
-                    <div class="project-block-two mix all construction col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="project-block-two mix all OuvragesDart col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/geobtp012.jpg" alt="" />
+                            	<img src="images/gallery/egeotechniquebtp.jpg" alt="" />
                             </div>
                             <div class="lower-box">
-                            	<h3>Golden Gate Bridge</h3>
-                                <div class="title">Construction</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/3.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">Golden Gate Bridge</a></h4>
-                                    <div class="title">Construction</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
-                            </div>
+                            	<h3>Ouvrages d’art – Etudes géotechniques</h3>
+                                <div class="title">géotechnique du projet de réhabilitation du stade FELIX HOUPHOUET – ABIDJAN PLATEAU</div>
+                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                              </div>
                         </div>
-                    </div>
-                    
+                    </div> 
+
                     <!--Project Block Two-->
-                    <div class="project-block-two mix all construction oil power col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="project-block-two mix all Batiments col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="inner-box">
                         	<div class="image">
-                            	<img src="images/gallery/geobtp012.jpg" alt="" />
+                            	<img src="images/gallery/geobtp10k.jpeg" alt="" />
                             </div>
                             <div class="lower-box">
-                            	<h3>Petroleum Tank Pipe</h3>
-                                <div class="title">Power & Energy</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/4.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">Petroleum Tank Pipe</a></h4>
-                                    <div class="title">Power & Energy</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Project Block Two-->
-                    <div class="project-block-two mix all agriculture oil col-lg-3 col-md-4 col-sm-6 col-xs-12">
-						<div class="inner-box">
-                        	<div class="image">
-                            	<img src="images/gallery/5.jpg" alt="" />
-                            </div>
-                            <div class="lower-box">
-                            	<h3>Golden Gate Bridge</h3>
-                                <div class="title">Construction</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/5.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">Golden Gate Bridge</a></h4>
-                                    <div class="title">Construction</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Project Block Two-->
-                    <div class="project-block-two mix all oil col-lg-3 col-md-4 col-sm-6 col-xs-12">
-						<div class="inner-box">
-                        	<div class="image">
-                            	<img src="images/gallery/6.jpg" alt="" />
-                            </div>
-                            <div class="lower-box">
-                            	<h3>Petroleum Tank Pipe</h3>
-                                <div class="title">Power & Energy</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/6.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">Petroleum Tank Pipe</a></h4>
-                                    <div class="title">Power & Energy</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Project Block Two-->
-                    <div class="project-block-two mix all power agriculture col-lg-3 col-md-4 col-sm-6 col-xs-12">
-						<div class="inner-box">
-                        	<div class="image">
-                            	<img src="images/gallery/7.jpg" alt="" />
-                            </div>
-                            <div class="lower-box">
-                            	<h3>Boston Railway Station</h3>
-                                <div class="title">Construction</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/7.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">Boston Railway Station</a></h4>
-                                    <div class="title">Construction</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--Project Block Two-->
-                    <div class="project-block-two mix all agriculture engineer col-lg-3 col-md-4 col-sm-6 col-xs-12">
-						<div class="inner-box">
-                        	<div class="image">
-                            	<img src="images/gallery/8.jpg" alt="" />
-                            </div>
-                            <div class="lower-box">
-                            	<h3>US Gas Company</h3>
-                                <div class="title">Oil & Gas</div>
-                                <div class="go-title">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></div>
-                            </div>
-                            <div class="overlay-content" style="background-image:url(images/gallery/8.jpg)">
-                            	<div class="overlay-inner">
-                                	<h4><a href="projects-single.html">US Gas Company</a></h4>
-                                    <div class="title">Oil & Gas</div>
-                                    <a class="go" href="projects-single.html">Go Through <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                                </div>
-                            </div>
+                            	<h3>Bâtiments – Etudes géotechniques</h3>
+                                <div class="title">Projet de construction d’un
+                                        immeuble R+13 avec un niveau de sous-sol
+                                        MARCORY</div>
+                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                             </div>
                         </div>
                     </div>
                     
@@ -662,7 +522,7 @@ session_start();
         </div>
     </section>
     
-    <!--News Section Two-->
+    <!--News Section Two
     <section class="news-section-two">
     	<div class="auto-container">
         	<div class="sec-title centered">
@@ -671,7 +531,6 @@ session_start();
             </div>
             <div class="row clearfix">
             	
-                <!--News Block Two-->
                 <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
@@ -682,12 +541,10 @@ session_start();
                             <div class="title">Post Info</div>
                             <div class="post-date">By Fernando, On 13th August 2017</div>
                             <div class="text">Great explorer of the truth, that master builder of human happiness...</div>
-                            <!--<a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
                         </div>
                     </div>
                 </div>
                 
-                <!--News Block Two-->
                 <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
@@ -698,12 +555,10 @@ session_start();
                             <div class="title">Post Info</div>
                             <div class="post-date">By Richardson, On 05th July 2017</div>
                             <div class="text">To take a trivial example, which of us ever undertakes laborious physical...</div>
-                            <!--<a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
                         </div>
                     </div>
                 </div>
                 
-                <!--News Block Two-->
                 <div class="news-block-two col-md-4 col-sm-6 col-xs-12">
                 	<div class="inner-box">
                     	<div class="image">
@@ -714,38 +569,40 @@ session_start();
                             <div class="title">Post Info</div>
                             <div class="post-date">By Venanda, On 21st October 2017</div>
                             <div class="text">Rationally encounter consequences seds ut that are extremely painful...</div>
-                            <!--<a href="blog-detail.html" class="read-more">Read More <span class="icon flaticon-arrow-pointing-to-right"></span></a>-->
-                        </div>
+                         </div>
                     </div>
                 </div>
                 
             </div>
 		</div>
-    </section>
+    </section>-->
     <!--End News Section Two-->
     
     <!--Quote Section-->
-    <section class="quote-section" style="background-image:url(images/background/7.jpg)">
+    <section class="quote-section" style="background-image:url(images/background/geotechnique01.png)">
     	<div class="auto-container">
         	<div class="quote-box">
             	<div class="inner-box">
                 	<div class="sec-title light">
-                    	<h2>Request for Quote</h2>
+                    	<h2>DEMANDE DE DEVIS</h2>
                         <div class="separator centered"></div>
                     </div>
-                    
-                    <!-- Quote Form -->
                     <div class="quote-form">
-                        <!--Shipping Form-->
-                        <form method="post" action="contact.html">
+                        <form method="post" action="contact.php">
                             <div class="row clearfix">
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <select class="custom-select-box">
-                                        <option>--Selectionner un service--</option>
-                                        <option>❖ Division Géotechnique</option>
-                                        <option>❖ Division matériaux - routes</option>
-                                        <option>❖ Division Maitrise d’oeuvre</option>
+                                <label for="serviedivision">Divisions</label>
+                                    <select class="form-control" id="serviedivision">
+                                            <option>...</option>
+                                            <option>❖ Division Géotechnique</option>
+                                            <option>❖ Division matériaux - routes</option>
+                                            <option>❖ Division Maitrise d’oeuvre</option>
+                                            <option>❖ Autre</option>
                                     </select>
+                                </div>                                
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <label for="desription">Description</label>
+                                    <textarea class="form-control" id="desription" rows="3"></textarea>
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                     <input type="text" name="text" placeholder="télephone" required>
@@ -766,7 +623,7 @@ session_start();
         </div>
     </section>
     <!--End Quote Section-->
-    
+
     <!--Appointment Form-->
     <?php include 'quoteform.php';?>
     <!-- End of #schedule-box -->
@@ -783,6 +640,8 @@ session_start();
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-double-up"></span></div>
 
 <script src="js/jquery.js"></script> 
+
+
 <!--Revolution Slider-->
 <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>

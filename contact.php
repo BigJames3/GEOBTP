@@ -71,14 +71,14 @@ if(isset($_GET['message'])) {
                                     </div>
                                     <h3>Marlène</h3>
                                     <div class="designation">Secrétaire</div>
-                                    <div class="emailed">larysar@geobtp.ci</div>
+                                    <div class="emailed">Marlene@geobtp.ci</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <!--Form Column-->
-                    <div class="form-column col-md-8 col-sm-12 col-xs-12">
+                    <div class="form-column col-md-8 col-sm-12 col-xs-12"> 
                     	<div class="inner-column">
                         	
                             <!-- Contact Form -->
@@ -87,7 +87,7 @@ if(isset($_GET['message'])) {
                                 <form method="post" action="sendemail.php" id="contact-form">
                                     <div class="row clearfix">
                                         <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                            <input type="text" name="username" placeholder="Name" required>
+                                            <input type="text" name="username" placeholder="Nom" required>
                                         </div>
                                         
                                         <div class="col-md-6 col-sm-6 col-xs-12 form-group">
@@ -95,11 +95,11 @@ if(isset($_GET['message'])) {
                                         </div>
                                         
                                         <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                            <input type="text" name="phone" placeholder="Phone" required>
+                                            <input type="text" name="phone" placeholder="Télephone" required>
                                         </div>
                                         
                                         <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                            <input type="text" name="subject" placeholder="Company" required>
+                                            <input type="text" name="subject" placeholder="Société" required>
                                         </div>
                                         
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
@@ -123,7 +123,11 @@ if(isset($_GET['message'])) {
             </div>
         </div>
     </section>
-    
+
+    <!--Clients Section Two-->
+    <?php include 'clients_section.php';?>
+    <!--End Clients Section Two-->
+
     <!--Quote Form-->
     <?php include 'quoteform.php';?>
     <!-- End of #schedule-box -->

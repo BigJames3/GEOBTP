@@ -219,7 +219,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                             <!-- Main Menu End-->                            
                             <!--Outer Box-->
                             <div class="outer-box">
-                                <a href="#" class="theme-btn quote-btn" data-toggle="modal" data-target="#schedule-box">DEVI</a>                           
+                                <a href="#" class="theme-btn quote-btn" data-toggle="modal" data-target="#schedule-box">OBTENIR UN DEVIS </a>                           
                             </div>                        
                         </div>
                         <!--Nav Outer End-->                        
@@ -234,7 +234,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
                         <div class="upper-column info-box">
                             <div class="icon-box"><img src="images/certificatISO.png" alt="" style="width: 60px;height: 57px;"></div>
                             <ul>
-                                <li><strong>BUREAU CERTIFIÉE</strong>ISO 9001</li>
+                                <li><a href="certificats.php"><strong>BUREAU CERTIFIÉE</strong>ISO 9001</a></li>
                             </ul>
                         </div>                        
                         <!--Info Box-->

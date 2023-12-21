@@ -27,7 +27,7 @@ session_start();
     <!--End Page Title-->
     
     <!--Sidebar Page Container-->
-    <div class="sidebar-page-container">
+    <div class="sidebar-page-container" style="background:#e5e5e5">
     	<div class="auto-container">
         	<div class="row clearfix">
 
@@ -40,7 +40,7 @@ session_start();
                 	<div class="market-single">
 						<div class="inner-box">
                             <div class="image">
-                                <img src="images/documents/Certifiat_geobtp.jpeg" alt="" />
+                                <img src="images/documents/politique_qualite.jpeg" alt="" />
                             </div>
                         </div>
                     </div>

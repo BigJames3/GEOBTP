@@ -3991,7 +3991,8 @@ img{
 	position:relative;
 	margin-right:30px;
 	padding:50px 50px 85px;
-	background:#113676 url(../images/resource/pattern.png) left bottom no-repeat;
+	background:#113676;
+	/*background:#113676 url(../images/resource/pattern.png) left bottom no-repeat;*/
 }
 
 .testimonial-section-two .testimonial-column .inner-column .quote-icon{
@@ -4870,7 +4871,7 @@ img{
 	position:relative;
 	padding:45px 25px 50px;
 	border:1px solid #f2f2f2;
-	background:url(../images/resource/pattern-1.png);
+	/*background:url(../images/resource/pattern-1.png);*/
 	background-repeat:repeat-x;
 	background-position:left bottom;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(219,219,219,1);

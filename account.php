@@ -52,6 +52,7 @@
         </div>
     </section>
     <!--End Page Title-->
+    
     <!--Register Section-->
     <section class="register-section">
         <div class="auto-container">
