@@ -65,7 +65,7 @@ session_start();
                                                 </ul>
                                             </div>
                                             <div class="column col-md-6 col-sm-12 col-xs-12">
-                                            	<div class="image"><img src="images/resource/graph-1.jpg" alt="" /></div>
+                                            	<div class="image"><img src="images/resource/controleq.jpeg" alt="" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +160,7 @@ session_start();
                         	<div class="sidebar-title">
                                 <h2>Documents</h2>
                             </div>
-                        	<a class="brochure" href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023"><span class="icon flaticon-pdf"></span>Presentation GEOBTP <span>Télécharger le PDF</span></a>
+                        	<!--<a class="brochure" href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023"><span class="icon flaticon-pdf"></span>Presentation GEOBTP <span>Télécharger le PDF</span></a>-->
                             <a class="brochure" href="#"><span class="icon flaticon-word-file"></span>Certificat <span>Documents</span></a>
                         </div>
                         <!--Request Quote-->

@@ -41,7 +41,7 @@ session_start();
                 	<div class="market-single">
 						<div class="inner-box">
                             <div class="image">
-                                <img src="images/resource/market-16.jpg" alt="" />
+                                <img src="images/resource/materieau.png" alt="" />
                             </div>
                             <div class="lower-content">
                             	<h2>Materiaux - Routes</h2>
@@ -111,8 +111,8 @@ session_start();
                         	<div class="sidebar-title">
                                 <h2>Our Brochures</h2>
                             </div>
-                        	<a class="brochure" href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023"><span class="icon flaticon-pdf"></span>Presentation GEOBTP <span>Télécharger le PDF</span></a>
-                            <a class="brochure" href=""><span class="icon flaticon-word-file"></span>Certificat</a>
+                        	<!--<a class="brochure" href="images/documents/PRESENTATION_GEOBTP_2023.pdf"  download="PRESENTATION_GEOBTP_2023"><span class="icon flaticon-pdf"></span>Presentation GEOBTP <span>Télécharger le PDF</span></a>-->
+                            <a class="brochure" href="#"><span class="icon flaticon-word-file"></span>Certificat <span>Documents</span></a>
                         </div>
                         
                         <!-- Sidebar brochure

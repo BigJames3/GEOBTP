@@ -14,7 +14,9 @@ session_start();
     <!-- Main Header / Header Style Two-->
     <?php include 'header.php';?>
     <!--End Main Header -->
-    
+    <style>
+        .header-lower .clearfix{border: green;border-bottom-style: double;}
+    </style>
     <!--Main Slider-->
     <section class="main-slider">
     	
@@ -22,7 +24,7 @@ session_start();
             <div class="rev_slider fullwidthabanner" id="rev_slider_two" data-version="5.4.1">
                 <ul>                	
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-4.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-4.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/slide10.png"> 
                     
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
@@ -87,7 +89,7 @@ session_start();
                     </li>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-5.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-5.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/slide12.png"> 
                     
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
@@ -152,7 +154,7 @@ session_start();
                     </li>
                     
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-6.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/image-6.jpg"> 
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/slide11.png"> 
                     
                     <div class="tp-caption" 
                     data-paddingbottom="[0,0,0,0]"
@@ -171,7 +173,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2>Supervision et Maîtrise d'Oeuvre Qualifiées</h2>
+                    	<h2 style="color: red;">Supervision et Maîtrise d'Oeuvre Qualifiées</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -435,19 +437,6 @@ session_start();
 			
             <!--MixitUp Galery-->
             <div class="mixitup-gallery">
-                
-                <!--Filter
-                <div class="filters clearfix">
-                    <ul class="filter-tabs filter-btns clearfix">
-                        <li class="active filter" data-role="button" data-filter="all">Voir Tout</li>
-                        <li class="filter" data-role="button" data-filter=".OuvragesDart">Ouvrages d’art</li>
-                        <li class="filter" data-role="button" data-filter=".MaitrisedOeuvre">Maîtrise d’oeuvre,</li>
-                        <li class="filter" data-role="button" data-filter=".Batiments">Bâtiments</li>
-                        <li class="filter" data-role="button" data-filter=".power">Ouvrage industrielle</li>
-                        <li class="filter" data-role="button" data-filter=".oil">Oil & Gas</li>
-                    </ul>
-                </div>-->
-                
                 <div class="filter-list clearfix">                
                     <!--Project géotechnique Two OK-->
                     <div class="project-block-two mix all power col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -518,7 +507,7 @@ session_start();
     	<div class="auto-container">
 			<h2>Chez GEOBTP, nous nous engageons à respecter rigoureusement les normes et méthodes reconnues dans le secteur. Tout en suivant ces standards, nous sommes également en mesure d'adapter nos méthodes d'essai pour répondre aux demandes spécifiques de nos clients.</h2>
             <div class="text">Que ce soit pour la conception, la réalisation ou le suivi de vos ouvrages, GEOBTP s'engage à vous accompagner à chaque étape du processus. Nous identifions vos besoins spécifiques et vous proposons des solutions adaptées et innovantes.</div>
-            <a href="#" class="theme-btn btn-style-one">RENCONTREZ NOTRE ÉQUIPE D'EXPERTS<span class="icon flaticon-arrow-pointing-to-right"></span></a>
+            <a href="contact.php" class="theme-btn btn-style-one">RENCONTREZ NOTRE ÉQUIPE D'EXPERTS<span class="icon flaticon-arrow-pointing-to-right"></span></a>
         </div>
     </section>
     
@@ -588,27 +577,27 @@ session_start();
                         <div class="separator centered"></div>
                     </div>
                     <div class="quote-form">
-                        <form method="post" action="contact.php">
+                        <form method="post" action="formulaire_index.php">
                             <div class="row clearfix">
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                 <label for="serviedivision">Divisions</label>
-                                    <select class="form-control" id="serviedivision">
-                                            <option>...</option>
-                                            <option>❖ Division Géotechnique</option>
-                                            <option>❖ Division matériaux - routes</option>
-                                            <option>❖ Division Maitrise d’oeuvre</option>
-                                            <option>❖ Autre</option>
+                                    <select class="form-control" name="division" id="serviedivision">
+                                        <option value="">...</option>
+                                        <option value="Division Géotechnique">❖ Division Géotechnique</option>
+                                        <option value="Division matériaux - routes">❖ Division matériaux - routes</option>
+                                        <option value="Division Maitrise d’oeuvre">❖ Division Maitrise d’oeuvre</option>
+                                        <option value="Autre">❖ Autre</option>
                                     </select>
                                 </div>                                
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <label for="desription">Description</label>
-                                    <textarea class="form-control" id="desription" rows="3"></textarea>
+                                    <textarea class="form-control" name="description" id="desription" rows="3"></textarea>
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="text" placeholder="télephone" required>
+                                    <input type="text" name="telephone" placeholder="télephone" required>
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="text" placeholder="Addresse Email " required>
+                                    <input type="text" name="mail" placeholder="Addresse Email " required>
                                 </div>
                                 <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                     <button class="theme-btn btn-style-one" type="submit" name="submit-form">ENVOYER MAINTENANT<span class="icon flaticon-arrow-pointing-to-right"></span></button>

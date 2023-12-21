@@ -54,29 +54,6 @@ if(isset($_GET['message'])) {
         	<div class="inner-container">
             	<div class="clearfix">
                 	
-                    <!--Info Column-->
-                    <div class="info-column col-md-4 col-sm-12 col-xs-12">
-                    	<div class="inner-column">
-                        	<div class="upper-box">
-                            	<ul class="list-style-three">
-                                	<li><span class="icon flaticon-technology-2"></span><strong>Appelez-nous : </strong>+225 27 22 46 52 72</li>
-                                    <li><span class="icon flaticon-envelope-1"></span><strong>Envoyez-nous un courrier: </strong>infos@geobtp.ci</li>
-                                    <li><span class="icon flaticon-time-1"></span><strong>Heures de bureau: </strong>Lundi - Vendredi : 8h00 à 17h30</li>
-                                </ul>
-                            </div>
-                            <div class="lower-box">
-                            	<div class="lower-inner">
-                                	<div class="image">
-                                    	<img src="images/resource/author-7.jpg" alt="" />
-                                    </div>
-                                    <h3>Marlène</h3>
-                                    <div class="designation">Secrétaire</div>
-                                    <div class="emailed">Marlene@geobtp.ci</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
                     <!--Form Column-->
                     <div class="form-column col-md-8 col-sm-12 col-xs-12"> 
                     	<div class="inner-column">
@@ -107,7 +84,7 @@ if(isset($_GET['message'])) {
                                         </div>
                                         
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                            <button class="theme-btn submit-btn" type="submit" name="submit-form">SOUMETTRE MAINTENANT <span class="icon flaticon-right-arrow-1"></span></button>
+                                            <button class="theme-btn submit-btn btn-style-one" type="submit" name="submit-form">Envoyer le message <span class="icon flaticon-arrow-pointing-to-right"></span></button>
                                         </div>
                                         
                                     </div>
@@ -116,6 +93,28 @@ if(isset($_GET['message'])) {
                             </div>
                             <!--End Contact Form -->
                             
+                        </div>
+                    </div>
+                    <!--Info Column-->
+                    <div class="info-column col-md-4 col-sm-12 col-xs-12">
+                    	<div class="inner-column">
+                        	<div class="upper-box">
+                            	<ul class="list-style-three">
+                                	<li><span class="icon flaticon-technology-2"></span><strong>Appelez-nous : </strong>+225 27 22 46 52 72</li>
+                                    <li><span class="icon flaticon-envelope-1"></span><strong>Envoyez-nous un courrier: </strong>infos@geobtp.ci</li>
+                                    <li><span class="icon flaticon-time-1"></span><strong>Heures de bureau: </strong>Lundi - Vendredi : 8h00 à 17h30</li>
+                                </ul>
+                            </div>
+                            <div class="lower-box">
+                            	<div class="lower-inner">
+                                	<div class="image">
+                                    	<img src="images/resource/author-7.jpg" alt="" />
+                                    </div>
+                                    <h3>Marlène</h3>
+                                    <div class="designation">Secrétaire</div>
+                                    <div class="emailed">Marlene@geobtp.ci</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
