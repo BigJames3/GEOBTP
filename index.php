@@ -108,7 +108,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2 style="text-align: center;">Votre Partenaire de Confiance dans le BTP</h2>
+                    	<h2 class="dark" style="text-align: center;">Votre Partenaire de Confiance dans le BTP</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -128,7 +128,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<div class="text">Contrôle Rigoureux des Travaux BTP</div>
+                    	<div class="text" style="color: #d1c131;">Contrôle Rigoureux des Travaux BTP</div>
                     </div>
                     
                     <div class="tp-caption" 
@@ -173,7 +173,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<h2 style="color: red;">Supervision et Maîtrise d'Oeuvre Qualifiées</h2>
+                    	<h2 style="color: #d1c131;">Supervision et Maîtrise d'Oeuvre Qualifiées</h2>
                     </div>
                     
                     <div class="tp-caption" 
@@ -193,7 +193,7 @@ session_start();
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                    	<div class="text">Savoir-faire Éprouvé, Confiance Assurée <br>Normes Respectées, Solutions Adaptées </div>
+                    	<div class="text" style="color: #113676;">Savoir-faire Éprouvé, Confiance Assurée <br>Normes Respectées, Solutions Adaptées </div>
                     </div>
                     
                     <div class="tp-caption" 
@@ -447,7 +447,7 @@ session_start();
                             <div class="lower-box">
                             	<h3>Ouvrages d’art – Etudes géotechniques</h3>
                                 <div class="title">Sondage pressiométrique et essai au pénétromètre dynamique</div>
-                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                                <!-- <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>-->
                             </div>
                         </div>
                     </div>
@@ -461,7 +461,7 @@ session_start();
                             <div class="lower-box">
                             	<h3>Ouvrages d’art – Etudes géotechniques</h3>
                                 <div class="title">Sondage pressiométrique et essai au pénétromètre dynamique</div>
-                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                                <!-- <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>-->
                             </div>
                         </div>
                     </div>
@@ -474,7 +474,7 @@ session_start();
                             <div class="lower-box">
                             	<h3>Ouvrages d’art – Etudes géotechniques</h3>
                                 <div class="title">géotechnique du projet de réhabilitation du stade FELIX HOUPHOUET – ABIDJAN PLATEAU</div>
-                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                                <!-- <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>-->
                               </div>
                         </div>
                     </div> 
@@ -490,7 +490,7 @@ session_start();
                                 <div class="title">Projet de construction d’un
                                         immeuble R+13 avec un niveau de sous-sol
                                         MARCORY</div>
-                                <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>
+                                <!-- <div class="go-title">Voir plus<span class="icon flaticon-arrow-pointing-to-right"></span></div>-->
                              </div>
                         </div>
                     </div>
