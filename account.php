@@ -69,12 +69,10 @@
                                 <span class="adon-icon"><span class="fa fa-user"></span></span>
                                 <input type="text" name="username" value="" placeholder="Nom d'utilisateur *" required>
                             </div>
-                            <!--
-                                <div class="form-group">
-                                    <span class="adon-icon"><span class="fa fa-envelope-o"></span></span>
-                                    <input type="email" name="useremil" value="" placeholder="Emai Address*">
-                                </div>
-                            -->
+                            <div style="display: none;">
+                                <label for="spam"></label>
+                                <input type="text" id="spam" name="spam">
+                            </div>
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
                                 <input type="password" name="password" value="" placeholder="Mot de passe" required>

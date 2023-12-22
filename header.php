@@ -21,8 +21,8 @@
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     // Affichage du menu supplémentaire pour un utilisateur connecté
     echo <<<HTML
-        <!-- Preloader -->
-        <div class="preloader"></div>
+        <!-- Preloader 
+        <div class="preloader"></div>-->
         <!-- Main Header / Header Style Two-->
         <header class="main-header header-style-two">
             <!-- Header Top -->
@@ -126,12 +126,11 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 } else {
     // Affichage d'un menu pour les utilisateurs non connectés
     echo <<<HTML
-        <!-- Preloader -->
-        <div class="preloader"></div>
+        <!-- Preloader 
+        <div class="preloader"></div>-->
 
         <!-- Main Header / Header Style Two-->
         <header class="main-header header-style-two">
-
             <!-- Header Top -->
             <div class="header-top">
                 <div class="auto-container">
