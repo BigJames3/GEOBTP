@@ -632,6 +632,8 @@ session_start();
 
 
 <!--Revolution Slider-->
+<script src="js/jquery.js"></script> 
+<!--Revolution Slider-->
 <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>

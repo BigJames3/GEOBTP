@@ -135,17 +135,16 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
             <!-- Header Top -->
             <div class="header-top">
                 <div class="auto-container">
-                    <div class="top-outer clearfix">
-                        
+                    <div class="top-outer clearfix">                        
                         <!--Top Left-->
                         <div class="top-right">
                             <ul class="links clearfix">
                                 <li><a href="#"><span class="icon fa fa-phone"></span>+225 27 22 46 52 72</a></li>
                                 <li><a href="#"><span class="icon fa fa-envelope-o"></span>infos@geobtp.com</a></li>
                                 <li><a href="#"><span class="icon flaticon-placeholder-2"></span>COCODY 2 PLATEAUX MOBIL</a></li>                                                        
-                                    <li><a href="https://www.facebook.com/geobtp.ci.75"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                                    <li><a href="account.php" style="opacity: 0.1;">&nbsp;_&nbsp;</a></li>
+                                <li><a href="https://www.facebook.com/geobtp.ci.75"><span class="fa fa-facebook"></span></a></li>
+                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                <li><a href="account.php" style="opacity: 0.1;">&nbsp;_&nbsp;</a></li>
                             </ul>
                         </div>
                     </div>
