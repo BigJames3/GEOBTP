@@ -45,7 +45,7 @@
     <section class="page-title shop-title" style="background-image:url(images/background/14.jpg);padding: 20px 0px 20px;">
         <div class="auto-container">
             <ul class="page-breadcrumb">
-                <li><a href="index.html">GEOBTP</a></li>
+                <li><a href="index.html">GEOBTP</a></li> 
                 <li>Connexion</li>
             </ul>            
         	<h1 style="margin-top: 5px;color:#F0FA00">CONNEXION</h1>
